@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caculator</title>
+    <style>
+#box{
+    background-color: aqua;
+    width: 400px;
+    height: 200px;
+    margin-left: 400px;
+}
+ .btn{
+     background-color: chartreuse;
+ }
+    </style>
+</head>
+<body>
+<div id="box">
+    <h1>CHƯƠNG TRÌNH MÁY TÍNH CẦM TAY</h1>
+    <form action="">
+        <input type="text" id="numFirst">
+        <input type="text" id="numSecond">
+        <br><br>
+
+
+        <button class="btn" type="button" id="btn1" onclick="tinhTong();">Addition(+)</button>
+        <button class="btn" type="button" id="btn2" onclick="tinhHieu();">Subtraction(-)</button>
+        <button class="btn" type="button" id="btn3" onclick="tinhTich();">Multiplication(X)</button>
+        <button class="btn" type="button" id="btn4" onclick="tinhThuong();">Divsion(/)</button>
+
+        <p id="result">Kết quả :</p>
+    </form>
+</div>
+
+<script>
+    function tinhTong() {
+        var a,b,kq;
+        a=parseFloat(document.getElementById("numFirst").value);
+        b=parseFloat(document.getElementById("numSecond").value);
+        kq=a+b;
+        document.getElementById("result").innerHTML="kết quả :" +kq;
+
+    }
+
+    function tinhHieu() {
+        var a,b,kq;
+        a=parseFloat(document.getElementById("numFirst").value);
+        b=parseFloat(document.getElementById("numSecond").value);
+        kq=a-b;
+        document.getElementById("result").innerHTML="kết quả :" +kq;
+
+    }
+
+    function tinhTich() {
+        var a,b,kq;
+        a=parseFloat(document.getElementById("numFirst").value);
+        b=parseFloat(document.getElementById("numSecond").value);
+        kq=a*b;
+        document.getElementById("result").innerHTML="kết quả :" +kq;
+
+    }
+
+    function tinhThuong() {
+        var a,b,kq;
+        a=parseFloat(document.getElementById("numFirst").value);
+        b=parseFloat(document.getElementById("numSecond").value);
+        kq=a/b;
+
+        document.getElementById("result").innerHTML="kết quả :" +kq;
+    }
+
+</script>
+</body>
+</html>
