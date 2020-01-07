@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nam nhuan</title>
+</head>
+<body>
+<script>
+    // let year = parseInt(prompt("Nhập vào năm cần kiểm tra"));
+    // if(year%2==0){
+    //     if(year%100==0){
+    //         if(year%400==0){
+    //             document.write("đây là năm nhuận");
+    //         }else{
+    //             document.write("đây không phải là năm nhuận");
+    //         }
+    //
+    //         } else{
+    //         document.write("đây là năm nhuận");
+    //
+    //     }
+    // } else {
+    //     document.write("đây không là năm nhuận");
+    // }
+    let Year=parseInt(prompt("Nhập vào năm cần tìm :"));
+
+    let isLeapYear=false;
+
+    let isVisibleBy2 = isLeapYear%2==0;
+    if(isVisibleBy2){
+        let isVisibleBy100= isLeapYear%100==0;
+        if(isVisibleBy100){
+            let isVisibleBy400= isLeapYear%400==2;
+            if(isVisibleBy400){
+                isLeapYear=true;
+            }
+
+        }else {
+            isLeapYear=true;
+        }
+    }
+
+    if(isLeapYear){
+        alert("Là năm nhuận");
+    }else {
+        alert("Không là năm nhuận");
+    }
+</script>
+</body>
+</html>
