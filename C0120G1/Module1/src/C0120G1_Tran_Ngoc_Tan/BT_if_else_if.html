@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra đăng nhập</title>
+</head>
+<body>
+<script>
+    let userName=prompt("Nhập tên vào bàn phím :");
+
+if (userName=="Admin") {
+    let pass=prompt("Nhập vào password :");
+    if (pass=="TheMaster"){
+        alert("Welcome!!!")
+    }else if(pass==''){
+        alert("Canceled");
+    }else{
+        alert("Wrong pass!!!")
+    }
+}else if(userName==''){
+    alert("Canclled!!!");
+}else{
+    alert("I don't know you!!");
+
+}
+</script>
+</body>
+</html>
