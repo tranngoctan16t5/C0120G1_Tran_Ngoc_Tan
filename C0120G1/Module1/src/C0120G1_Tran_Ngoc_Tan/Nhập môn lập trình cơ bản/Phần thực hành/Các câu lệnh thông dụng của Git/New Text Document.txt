@@ -1,0 +1,12 @@
+	
++git clone: sao chép một repository
+
++git init : Khởi tạo 1 repository
+
++git add:Đưa các file vào vùng staged
+
++git commit:ghi nhận các thay đổi
+
++git push:Đưa các thay đổi từ local repository lên remote repository
+
++git pull:Đưa các thay đổi từ remote repository về local repository
