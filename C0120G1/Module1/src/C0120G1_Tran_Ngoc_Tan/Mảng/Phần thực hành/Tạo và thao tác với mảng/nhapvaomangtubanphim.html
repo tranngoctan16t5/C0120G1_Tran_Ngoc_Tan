@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {padding-top:50px}
+    </style>
+</head>
+<body>
+<input type="text" id="nhapValue">
+<input type="button" id="addValue" value="Add" onclick="add_element_to_array();">
+<input type="button" id="displayValue" value="Display" onclick="displayElement()">
+<div id="result"></div>
+<script>
+    let x=0;
+    let array=Array();
+    function add_element_to_array() {
+        array[x]=document.getElementById("nhapValue").value;
+        alert("Phần tử "+" "+array[x]+" "+" đã được thêm vào mảng ở vị trí thứ "+x);
+
+        x++;
+        document.getElementById("nhapValue").value="";
+    }
+    function displayElement() {
+        let e="<hr/>";
+        for(let i=0;i<array.length;i++){
+            e += "element " + i + " là " + array[i] + "<br/>";
+        }
+        document.getElementById("result").innerHTML=e;
+    }
+</script>
+</body>
+</html>
