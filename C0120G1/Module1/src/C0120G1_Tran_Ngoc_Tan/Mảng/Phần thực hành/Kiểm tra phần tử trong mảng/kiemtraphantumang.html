@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=[1,2,3,4,5,6,7,8,9];
+    var n=null;
+    // yêu cầu nhập lại nếu chưa nhập
+    do{
+        var n=prompt("mời bạn nhập số cần kiểm tra !!");
+    }while (n=='') ;
+
+    for(let i=0;i<=a.length;i++){
+        if(a[i]==n){
+            document.write("số cần kiểm tra nằm ở vị trí thứ " +i+" trong mảng");
+
+        }
+
+    }
+    if(n>9){
+        alert("Phần tử không nằm trong mảng");
+    }
+
+
+</script>
+</body>
+
+
+</html>
