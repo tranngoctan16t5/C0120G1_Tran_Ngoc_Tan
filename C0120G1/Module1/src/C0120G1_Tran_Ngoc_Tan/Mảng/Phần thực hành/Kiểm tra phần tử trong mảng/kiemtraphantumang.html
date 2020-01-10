@@ -6,22 +6,24 @@
 </head>
 <body>
 <script>
-    let a=[1,2,3,4,5,6,7,8,9];
-    var n=null;
+    let a = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    var n = null;
+
     // yêu cầu nhập lại nếu chưa nhập
-    do{
-        var n=prompt("mời bạn nhập số cần kiểm tra !!");
-    }while (n=='') ;
-
-    for(let i=0;i<=a.length;i++){
-        if(a[i]==n){
-            document.write("số cần kiểm tra nằm ở vị trí thứ " +i+" trong mảng");
-
+    do {
+        var n = prompt("mời bạn nhập số cần kiểm tra !!");
+    } while (n == '') ;
+    let check = false;
+    for (let i = 0; i <= a.length; i++) {
+        if (a[i] == n) {
+            document.write("số cần kiểm tra nằm ở vị trí thứ " + i + " trong mảng");
+            check = true;
+            break;
         }
-
     }
-
-
+    if (!check) {
+  document.write("Không tìm thấy phần tử trong mảng");
+    }
 
 
 </script>
