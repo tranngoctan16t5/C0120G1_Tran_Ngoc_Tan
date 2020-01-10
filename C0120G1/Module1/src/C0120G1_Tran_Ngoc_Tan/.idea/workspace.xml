@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5548c24e-51b9-48dc-bfee-3928fc99474a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/noiphantu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/doichuhoasangthuong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng/Phần thực hành/Kiểm tra phần tử trong mảng/kiemtraphantumang.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng/Phần thực hành/Kiểm tra phần tử trong mảng/kiemtraphantumang.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,17 +20,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Kiểm tra phần tử trong mảng/kiemtraphantumang.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="442">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/noiphantu.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/chendauvaosochan.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/doichuhoasangthuong.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -47,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Thực hành tạo bàn cờ caro/bancocaro.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="221">
               <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
             </state>
           </provider>
@@ -65,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cấu trúc lặp/Phần bài tập/Hiển thị số nguyên tố/hienthisonguyento.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="85">
               <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
@@ -124,6 +142,8 @@
         <option value="$PROJECT_DIR$/Mảng/Phần thực hành/Thực hành tạo bàn cờ caro/bancocaro.html" />
         <option value="$PROJECT_DIR$/Mảng/Phần thực hành/Kiểm tra phần tử trong mảng/kiemtraphantumang.html" />
         <option value="$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/noiphantu.html" />
+        <option value="$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/chendauvaosochan.html" />
+        <option value="$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/doichuhoasangthuong.html" />
       </list>
     </option>
   </component>
@@ -246,7 +266,8 @@
       <option name="presentableId" value="Default" />
       <updated>1578363372511</updated>
       <workItem from="1578363373777" duration="33658000" />
-      <workItem from="1578446037853" duration="62457000" />
+      <workItem from="1578446037853" duration="65220000" />
+      <workItem from="1578643790311" duration="2432000" />
     </task>
     <task id="LOCAL-00001" summary="bai tap 1 (bien)">
       <created>1578363610939</created>
@@ -528,11 +549,25 @@
       <option name="project" value="LOCAL" />
       <updated>1578628524194</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="nối chuỗi">
+      <created>1578638381412</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1578638381412</updated>
+    </task>
+    <task id="LOCAL-00042" summary="chèn dấu vào giữa số chẵn">
+      <created>1578640296611</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1578640296611</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96115000" />
+    <option name="totallyTimeSpent" value="101310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
@@ -562,8 +597,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="nam nhuan" />
-    <MESSAGE value="kiem tra dang nhap" />
     <MESSAGE value="switch" />
     <MESSAGE value="toan tu 1" />
     <MESSAGE value="su kien ban phim" />
@@ -587,54 +620,18 @@
     <MESSAGE value="phần tử lớn nhất trong mảng" />
     <MESSAGE value="thay dổi hiển thị phần tử" />
     <MESSAGE value="bàn caRRO" />
-    <option name="LAST_COMMIT_MESSAGE" value="bàn caRRO" />
+    <MESSAGE value="nối chuỗi" />
+    <MESSAGE value="chèn dấu vào giữa số chẵn" />
+    <option name="LAST_COMMIT_MESSAGE" value="chèn dấu vào giữa số chẵn" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BT_Bien1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_Bien2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_Bien3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_Diemtrungbinh.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_ChuyendoiDo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_Hinhchunhat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js_demo2.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BT_Bien1.html" />
+    <entry file="file://$PROJECT_DIR$/BT_Bien2.html" />
+    <entry file="file://$PROJECT_DIR$/BT_Bien3.html" />
+    <entry file="file://$PROJECT_DIR$/BT_Diemtrungbinh.html" />
+    <entry file="file://$PROJECT_DIR$/BT_ChuyendoiDo.html" />
+    <entry file="file://$PROJECT_DIR$/BT_Hinhchunhat.html" />
+    <entry file="file://$PROJECT_DIR$/js_demo2.js" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7775">
@@ -642,121 +639,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zz.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_Chuyendoitiente.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_Dientichhinhtron.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_Kiemtranamnhuan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_switch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_toantu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_hienthingaytrongthang.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_toantu1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_if_else_if.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_sukienbanphim1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_tinhchisoBMI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_Caculator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_Caculator_nangcao.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_sukienbanphim.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BT_DoYouLoveMe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zz.html" />
+    <entry file="file://$PROJECT_DIR$/BT_Chuyendoitiente.html" />
+    <entry file="file://$PROJECT_DIR$/BT_Dientichhinhtron.html" />
+    <entry file="file://$PROJECT_DIR$/BT_Kiemtranamnhuan.html" />
+    <entry file="file://$PROJECT_DIR$/ex01.html" />
+    <entry file="file://$PROJECT_DIR$/BT_switch.html" />
+    <entry file="file://$PROJECT_DIR$/BT_toantu.html" />
+    <entry file="file://$PROJECT_DIR$/BT_hienthingaytrongthang.html" />
+    <entry file="file://$PROJECT_DIR$/BT_toantu1.html" />
+    <entry file="file://$PROJECT_DIR$/BT_if_else_if.html" />
+    <entry file="file://$PROJECT_DIR$/BT_sukienbanphim1.html" />
+    <entry file="file://$PROJECT_DIR$/BT_tinhchisoBMI.html" />
+    <entry file="file://$PROJECT_DIR$/BT_Caculator.html" />
+    <entry file="file://$PROJECT_DIR$/BT_Caculator_nangcao.html" />
+    <entry file="file://$PROJECT_DIR$/BT_sukienbanphim.html" />
+    <entry file="file://$PROJECT_DIR$/BT_DoYouLoveMe.html" />
     <entry file="file://$PROJECT_DIR$/Cấu trúc lặp/phần thực hành/Sử dụng vòng lặp for/bai1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -827,10 +725,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cấu trúc lặp/Phần bài tập/Hiển thị số nguyên tố/hienthisonguyento.html">
+    <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Kiểm tra phần tử trong mảng/kiemtraphantumang.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/noiphantu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/chendauvaosochan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -841,6 +753,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Thực hành tạo bàn cờ caro/bancocaro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Đảo ngược các phần tử trong mảng/daoelement.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -848,24 +767,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Thực hành tạo bàn cờ caro/bancocaro.html">
+    <entry file="file://$PROJECT_DIR$/Cấu trúc lặp/Phần bài tập/Hiển thị số nguyên tố/hienthisonguyento.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Kiểm tra phần tử trong mảng/kiemtraphantumang.html">
+    <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/doichuhoasangthuong.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/noiphantu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="459">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
         </state>
       </provider>
     </entry>

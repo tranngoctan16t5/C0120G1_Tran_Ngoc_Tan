@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // var str=prompt("Nhập vào mảng :").toString();
+    // //var str = 'Tranngoctan';
+    // var UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    // var LOWER = 'abcdefghijklmnopqrstuvwxyz';
+    // var result = [];
+    //
+    // for(var x=0; x<str.length; x++)
+    // {
+    //     if(UPPER.indexOf(str[x]) !== -1)
+    //     {
+    //         result.push(str[x].toLowerCase());
+    //     }
+    //     else if(LOWER.indexOf(str[x]) !== -1)
+    //     {
+    //         result.push(str[x].toUpperCase());
+    //     }
+    //     else
+    //     {
+    //         result.push(str[x]);
+    //     }
+    // }
+    // document.write(result.join(''));
+
+    let b=prompt("Mời bạn nhập vào chuỗi cần thử !!!").toString();
+    let UPPER='ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    let LOWER='abcdefghijklmnopqrstuvwxyz';
+    result=[];
+    for(let i=0;i<b.length;i++){
+        if(UPPER.indexOf(b[i])!==-1){
+            result.push(b[i].toLowerCase());
+        }else if(LOWER.indexOf(b[i])!==-1){
+            result.push(b[i].toUpperCase());
+        }else{
+            result.push(b[i]);
+        }
+    }
+    document.write(result.join(''));
+
+</script>
+
+</body>
+</html>
