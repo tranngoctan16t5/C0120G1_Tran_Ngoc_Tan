@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5548c24e-51b9-48dc-bfee-3928fc99474a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/doichuhoasangthuong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/Phần bài tập/Tạo ứng dụng từ điển/ungdungtudien.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/doichuhoasangthuong.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
               <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mảng/Phần bài tập/Tạo ứng dụng từ điển/ungdungtudien.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -144,10 +152,11 @@
         <option value="$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/noiphantu.html" />
         <option value="$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/chendauvaosochan.html" />
         <option value="$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/doichuhoasangthuong.html" />
+        <option value="$PROJECT_DIR$/Mảng/Phần bài tập/Tạo ứng dụng từ điển/ungdungtudien.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -171,26 +180,6 @@
               <item name="C0120G1_Tran_Ngoc_Tan" type="b2602c69:ProjectViewProjectNode" />
               <item name="C0120G1_Tran_Ngoc_Tan" type="462c0819:PsiDirectoryNode" />
               <item name="Mảng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Tran_Ngoc_Tan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Tran_Ngoc_Tan" type="462c0819:PsiDirectoryNode" />
-              <item name="Mảng" type="462c0819:PsiDirectoryNode" />
-              <item name="Phần thực hành" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Tran_Ngoc_Tan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Tran_Ngoc_Tan" type="462c0819:PsiDirectoryNode" />
-              <item name="Mảng" type="462c0819:PsiDirectoryNode" />
-              <item name="Phần thực hành" type="462c0819:PsiDirectoryNode" />
-              <item name="Sử dụng các hàm có sẵn của mảng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Tran_Ngoc_Tan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Tran_Ngoc_Tan" type="462c0819:PsiDirectoryNode" />
-              <item name="Mảng" type="462c0819:PsiDirectoryNode" />
-              <item name="Phần thực hành" type="462c0819:PsiDirectoryNode" />
-              <item name="Đảo ngược các phần tử trong mảng" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -267,7 +256,7 @@
       <updated>1578363372511</updated>
       <workItem from="1578363373777" duration="33658000" />
       <workItem from="1578446037853" duration="65220000" />
-      <workItem from="1578643790311" duration="2432000" />
+      <workItem from="1578643790311" duration="3293000" />
     </task>
     <task id="LOCAL-00001" summary="bai tap 1 (bien)">
       <created>1578363610939</created>
@@ -563,14 +552,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578640296611</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="CHuyển chuỗi hoa sang thường">
+      <created>1578646259870</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1578646259872</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101310000" />
+    <option name="totallyTimeSpent" value="102171000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <frame x="10" y="20" width="1346" height="688" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -597,7 +593,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="switch" />
     <MESSAGE value="toan tu 1" />
     <MESSAGE value="su kien ban phim" />
     <MESSAGE value=" event key" />
@@ -622,7 +617,8 @@
     <MESSAGE value="bàn caRRO" />
     <MESSAGE value="nối chuỗi" />
     <MESSAGE value="chèn dấu vào giữa số chẵn" />
-    <option name="LAST_COMMIT_MESSAGE" value="chèn dấu vào giữa số chẵn" />
+    <MESSAGE value="CHuyển chuỗi hoa sang thường" />
+    <option name="LAST_COMMIT_MESSAGE" value="CHuyển chuỗi hoa sang thường" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BT_Bien1.html" />
@@ -778,6 +774,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mảng/Phần bài tập/Tạo ứng dụng từ điển/ungdungtudien.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>

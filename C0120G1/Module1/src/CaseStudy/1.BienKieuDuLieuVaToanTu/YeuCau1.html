@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nameCustomer = prompt("Enter name Customer: ");
+    let idCard = prompt("Enter Id Card Customer: ");
+    let birthdayCustomer = prompt("Enter Birthday Customer (dd/MM/YY): ");
+    let emailCustomer = prompt("Enter email Customer: ");
+    let addressCustomer = prompt("Enter address Customer");
+    let typeCustomer = prompt("Enter address Customer: ");
+    let discount = prompt("Enter Type Customer: ");
+    let numberOfAccompanying = prompt("Enter Number of Accompanying: ");
+    let typeRoom = prompt("Enter Type Room: ");
+    let rentDays = prompt("Enter Rent Days: ");
+    let typeService = prompt("Enter Type Service: ");
+    let totalPays=500*Number.parseInt(rentDays)*(1-Number.parseFloat(discount)/100);
+
+    //Hiển thị thông tin
+    alert("Information Of Customer: \n"+
+        "name: " + nameCustomer +
+        "\nId Card : "+ idCard +
+        "\nBirthday : "+ birthdayCustomer+
+        "\nEmail : "+ emailCustomer+
+        "\nAddress : "+ birthdayCustomer+
+        "\nType Customer : "+ addressCustomer+
+        "\nDiscount : "+ discount+
+        "\nAccompanying : "+ numberOfAccompanying+
+        "\nType Service : "+ typeService+
+        "\nBirthday : "+ birthdayCustomer+
+        "\nTotal Pays : "+ totalPays
+
+    )
+
+
+</script>
+</body>
+</html>
