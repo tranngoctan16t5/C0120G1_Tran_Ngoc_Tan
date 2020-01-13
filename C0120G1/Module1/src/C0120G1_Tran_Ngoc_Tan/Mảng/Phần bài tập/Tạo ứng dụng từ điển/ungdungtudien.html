@@ -6,8 +6,31 @@
 </head>
 <body>
 <form action="">
-    <input type="text" id="anh">
-    <button type="button">Dịch</button>
+    <input type="text" id="english">
+    <button type="button" onclick="dichThuat();">Dịch</button>
+    <p id="viet"></p>
+    <script>
+        function dichThuat() {
+            let arr_anh = new Array("study", "apple", "red", "class");
+            let arr_viet = new Array("học tập", "trái táo", "màu đỏ", "lớp học");
+            let nhap = (document.getElementById("english").value).toString();
+            for (let i = 0; i < arr_anh.length; i++) {
+             //   for (let j = 0; j < arr_viet.length; j++) {
+                    if (arr_anh[i] == nhap) {
+                        document.getElementById("viet").innerHTML = arr_viet[i];
+                        break;
+                    }else {
+                        document.getElementById("viet").innerHTML ="Không tìm thây";
+                    }
+
+
+
+                }
+            }
+
+
+    </script>
+
 </form>
 </body>
 </html>
