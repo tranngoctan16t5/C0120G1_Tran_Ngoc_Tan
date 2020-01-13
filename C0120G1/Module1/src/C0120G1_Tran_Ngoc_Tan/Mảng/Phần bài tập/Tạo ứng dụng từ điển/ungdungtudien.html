@@ -22,7 +22,12 @@
                     }else {
                         document.getElementById("viet").innerHTML ="Không tìm thây";
                     }
-
+                    if(arr_viet[i]==nhap){
+                        document.getElementById("viet").innerHTML = arr_anh[i];
+                        break;
+                    }else{
+                        document.getElementById("viet").innerHTML ="Không tìm thây";
+                    }
 
 
                 }
