@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<div>
+
+    <script>
+
+        let arr = new Array("Sony Xperia", "SamSung Galaxxy", "Nokia 6", "Xiaomi Redmi Note4x", "Iphone 6", "Xiaomi Mi 5s Plus", "Iphone 8 Plus", "Fujitsu F-E04", "Oppo A71");
+        inLai(arr);
+
+        function addSP() {
+            let n = (document.getElementById("them").value);
+            arr.push(n);
+            document.body.innerHTML = '';
+            alert("Phần tử mới vừa được thêm vào danh sách");
+            inLai(arr);
+
+        }
+
+        function inLai(arr) {
+
+            // let arr = new Array("Sony Xperia", "SamSung Galaxxy", "Nokia 6", "Xiaomi Redmi Note4x", "Iphone 6", "Xiaomi Mi 5s Plus", "Iphone 8 Plus", "Fujitsu F-E04", "Oppo A71");
+            let sout = "<div class='bao_form' style='  width: 290px;\n" +
+                "height: 30px;\n" +
+                "background: beige;\n" +
+                "padding: 31px 0 30px 50px;'>" +
+                "<input type='text' id='them'>" +
+                "<button style='color: ghostwhite;background: chartreuse;' onclick='addSP();'>Add</button>" +
+                "</div>" +
+                "<h2>Display All Product</h2>" +
+                "<table border='1' cellpadding='1' cellspacing='1'>" + "<tr><th>Product</th></tr>";
+            for (let i = 0; i < arr.length; i++) {
+                sout += "<tr>" + "<form>"
+                    + "<td>" + arr[i] + "</td>"
+                    + "<td>" + "<button onclick='editSP();'>Edit</button>" + "</td>"
+                    + "<td>" + "<button>Delete</button>" + "</td>"
+                    + "</tr>";
+            }
+            sout += "</table>";
+            document.write(sout);
+
+        }
+
+        function editSP() {
+
+            document.write(
+                "<form>" +
+                "<input type='text' id='edit_ip'>" + "<button type='button' id='edit_btn' onclick='inLai(arr);'>edit</button>" +
+                "</form>"
+            );
+           //
+           // arr[i] = a;
+
+
+            //inLai(arr);
+
+        }
+
+
+
+
+    </script>
+</div>
+
+</body>
+</html>
