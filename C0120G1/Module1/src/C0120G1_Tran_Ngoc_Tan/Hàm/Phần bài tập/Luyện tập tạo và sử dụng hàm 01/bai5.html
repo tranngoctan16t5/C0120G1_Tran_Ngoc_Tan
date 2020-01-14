@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+    <input type="text" id="ngoisao">
+    <button type="button" onclick="timSao(document.getElementById('ngoisao').value);" >Tìm Chòm sao</button>
+    <p id="chomsao"></p>
+</form>
+<script>
+    let arr1 = new Array("Polarit", "Vega", "Altair", "Dubhe", "Regulus");
+    let arr2 = new Array("Ursa", "Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo");
+
+function timSao(nhap) {
+
+    for(let i=0;i<arr1.length;i++){
+       if(arr1[i]==nhap.toString()){
+            document.getElementById("chomsao").innerHTML=arr2[i];
+       }
+    }
+
+    
+}
+</script>
+</body>
+</html>
