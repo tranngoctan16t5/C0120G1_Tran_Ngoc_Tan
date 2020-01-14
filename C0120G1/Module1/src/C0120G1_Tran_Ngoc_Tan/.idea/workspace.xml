@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5548c24e-51b9-48dc-bfee-3928fc99474a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Hàm/Phần bài tập/Hàm kiểm tra số nguyên tố/kiemtrasonguyento.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Phần bài tập/Luyện tập tạo và sử dụng hàm 01/bai2.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/noiphantu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/chendauvaosochan.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,11 +65,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hàm/Phần bài tập/Hàm kiểm tra số nguyên tố/kiemtrasonguyento.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            <state relative-caret-position="187">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hàm/Phần bài tập/Luyện tập tạo và sử dụng hàm 01/bai2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -163,6 +162,7 @@
         <option value="$PROJECT_DIR$/Hàm/Phần thực hành/Chuyển độ F sang C/demo.html" />
         <option value="$PROJECT_DIR$/Hàm/Phần thực hành/Tìm giá trị nhỏ nhất của mảng/min_mang.html" />
         <option value="$PROJECT_DIR$/Hàm/Phần bài tập/Hàm kiểm tra số nguyên tố/kiemtrasonguyento.html" />
+        <option value="$PROJECT_DIR$/Hàm/Phần bài tập/Luyện tập tạo và sử dụng hàm 01/bai2.html" />
       </list>
     </option>
   </component>
@@ -189,6 +189,19 @@
               <item name="C0120G1_Tran_Ngoc_Tan" type="b2602c69:ProjectViewProjectNode" />
               <item name="C0120G1_Tran_Ngoc_Tan" type="462c0819:PsiDirectoryNode" />
               <item name="Hàm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C0120G1_Tran_Ngoc_Tan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C0120G1_Tran_Ngoc_Tan" type="462c0819:PsiDirectoryNode" />
+              <item name="Hàm" type="462c0819:PsiDirectoryNode" />
+              <item name="Phần bài tập" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C0120G1_Tran_Ngoc_Tan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C0120G1_Tran_Ngoc_Tan" type="462c0819:PsiDirectoryNode" />
+              <item name="Hàm" type="462c0819:PsiDirectoryNode" />
+              <item name="Phần bài tập" type="462c0819:PsiDirectoryNode" />
+              <item name="Luyện tập tạo và sử dụng hàm 01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -267,7 +280,7 @@
       <workItem from="1578363373777" duration="33658000" />
       <workItem from="1578446037853" duration="65220000" />
       <workItem from="1578643790311" duration="21658000" />
-      <workItem from="1578933920752" duration="2113000" />
+      <workItem from="1578933920752" duration="2848000" />
     </task>
     <task id="LOCAL-00001" summary="bai tap 1 (bien)">
       <created>1578363610939</created>
@@ -605,11 +618,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578909243391</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Kiểm tra số nguyên tố">
+      <created>1578964980588</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1578964980588</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122649000" />
+    <option name="totallyTimeSpent" value="123384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
@@ -639,7 +659,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="chi so BMI" />
     <MESSAGE value="tính số ngày trong tháng" />
     <MESSAGE value="giao dien may tinh cam tay" />
     <MESSAGE value="do you love me?" />
@@ -664,7 +683,8 @@
     <MESSAGE value="từ điển" />
     <MESSAGE value="demo hàm" />
     <MESSAGE value="min array" />
-    <option name="LAST_COMMIT_MESSAGE" value="min array" />
+    <MESSAGE value="Kiểm tra số nguyên tố" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kiểm tra số nguyên tố" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BT_Bien1.html" />
@@ -863,8 +883,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hàm/Phần bài tập/Hàm kiểm tra số nguyên tố/kiemtrasonguyento.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        <state relative-caret-position="187">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hàm/Phần bài tập/Luyện tập tạo và sử dụng hàm 01/bai2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
