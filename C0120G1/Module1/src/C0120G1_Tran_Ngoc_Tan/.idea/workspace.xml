@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5548c24e-51b9-48dc-bfee-3928fc99474a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Hàm/Phần bài tập/Luyện tập tạo và sử dụng hàm 01/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Phần bài tập/Luyện tập tạo và sử dụng hàm 01/bai4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,20 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/chendauvaosochan.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cấu trúc điều kiện/Phần bài tập/Câu lệnh switch-case/BT_hienthingaytrongthang.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mảng/Phần thực hành/Sử dụng các hàm có sẵn của mảng/doichuhoasangthuong.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,11 +61,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hàm/Phần bài tập/Luyện tập tạo và sử dụng hàm 01/bai2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hàm/Phần bài tập/Luyện tập tạo và sử dụng hàm 01/bai3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hàm/Phần bài tập/Luyện tập tạo và sử dụng hàm 01/bai4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -163,6 +168,8 @@
         <option value="$PROJECT_DIR$/Hàm/Phần thực hành/Tìm giá trị nhỏ nhất của mảng/min_mang.html" />
         <option value="$PROJECT_DIR$/Hàm/Phần bài tập/Hàm kiểm tra số nguyên tố/kiemtrasonguyento.html" />
         <option value="$PROJECT_DIR$/Hàm/Phần bài tập/Luyện tập tạo và sử dụng hàm 01/bai2.html" />
+        <option value="$PROJECT_DIR$/Hàm/Phần bài tập/Luyện tập tạo và sử dụng hàm 01/bai3.html" />
+        <option value="$PROJECT_DIR$/Hàm/Phần bài tập/Luyện tập tạo và sử dụng hàm 01/bai4.html" />
       </list>
     </option>
   </component>
@@ -280,21 +287,7 @@
       <workItem from="1578363373777" duration="33658000" />
       <workItem from="1578446037853" duration="65220000" />
       <workItem from="1578643790311" duration="21658000" />
-      <workItem from="1578933920752" duration="2848000" />
-    </task>
-    <task id="LOCAL-00001" summary="bai tap 1 (bien)">
-      <created>1578363610939</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1578363610939</updated>
-    </task>
-    <task id="LOCAL-00002" summary="bai tap 1 (bien)">
-      <created>1578363786572</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1578363786572</updated>
+      <workItem from="1578933920752" duration="3498000" />
     </task>
     <task id="LOCAL-00003" summary="bai tap 3 (bien)">
       <created>1578364183380</created>
@@ -625,11 +618,25 @@
       <option name="project" value="LOCAL" />
       <updated>1578964980588</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="hien thị đối số">
+      <created>1578965844464</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1578965844500</updated>
+    </task>
+    <task id="LOCAL-00051" summary="bai 3">
+      <created>1578966276974</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1578966276974</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123384000" />
+    <option name="totallyTimeSpent" value="124034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
@@ -659,8 +666,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tính số ngày trong tháng" />
-    <MESSAGE value="giao dien may tinh cam tay" />
     <MESSAGE value="do you love me?" />
     <MESSAGE value="vòng lặp for (bài 1)" />
     <MESSAGE value="vòng lặp for (bài 2)" />
@@ -684,10 +689,11 @@
     <MESSAGE value="demo hàm" />
     <MESSAGE value="min array" />
     <MESSAGE value="Kiểm tra số nguyên tố" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kiểm tra số nguyên tố" />
+    <MESSAGE value="hien thị đối số" />
+    <MESSAGE value="bai 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="bai 3" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BT_Bien1.html" />
     <entry file="file://$PROJECT_DIR$/BT_Bien2.html" />
     <entry file="file://$PROJECT_DIR$/BT_Bien3.html" />
     <entry file="file://$PROJECT_DIR$/BT_Diemtrungbinh.html" />
@@ -892,6 +898,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hàm/Phần bài tập/Luyện tập tạo và sử dụng hàm 01/bai3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hàm/Phần bài tập/Luyện tập tạo và sử dụng hàm 01/bai4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>
