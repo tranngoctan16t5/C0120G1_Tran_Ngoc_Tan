@@ -13,14 +13,7 @@
         let arr = new Array("Sony Xperia", "SamSung Galaxxy", "Nokia 6", "Xiaomi Redmi Note4x", "Iphone 6", "Xiaomi Mi 5s Plus", "Iphone 8 Plus", "Fujitsu F-E04", "Oppo A71");
         inLai(arr);
 
-        function addSP() {
-            let n = (document.getElementById("them").value);
-            arr.push(n);
-            document.body.innerHTML = '';
-            alert("Phần tử mới vừa được thêm vào danh sách");
-            inLai(arr);
 
-        }
 
         function inLai(arr) {
 
@@ -37,8 +30,8 @@
             for (let i = 0; i < arr.length; i++) {
                 sout += "<tr>" + "<form>"
                     + "<td>" + arr[i] + "</td>"
-                    + "<td>" + "<button onclick='editSP();'>Edit</button>" + "</td>"
-                    + "<td>" + "<button>Delete</button>" + "</td>"
+                    + "<td>" + "<button onclick='hienThiForm("+i+");'>Edit</button>" + "</td>"
+                    + "<td>" + "<button onclick='deleteSP("+i+");'>Delete</button>" + "</td>"
                     + "</tr>";
             }
             sout += "</table>";
@@ -46,19 +39,35 @@
 
         }
 
-        function editSP() {
+        function addSP() {
+            let n = (document.getElementById("them").value);
+            arr.push(n);
+            document.body.innerHTML = '';
+            alert("Phần tử mới vừa được thêm vào danh sách");
+            inLai(arr);
+
+        }
+
+        function hienThiForm(i) {
 
             document.write(
                 "<form>" +
-                "<input type='text' id='edit_ip'>" + "<button type='button' id='edit_btn' onclick='inLai(arr);'>edit</button>" +
+                "<input  type='text' id='edit_ip'>" + "<button type='button' id='edit_btn' onclick='editSP("+i+")'>edit</button>" +
                 "</form>"
             );
-           //
-           // arr[i] = a;
+        }
+        function editSP(i) {
+             a=document.getElementById("edit_ip").value;
+             arr[i]=a;
+             document.body.innerHTML = '';
+             inLai(arr);
 
-
-            //inLai(arr);
-
+        }
+        function deleteSP(i) {
+           //arr.pop(arr[i]);
+             arr.splice(i,1);
+            inLai(arr);
+            
         }
 
 
