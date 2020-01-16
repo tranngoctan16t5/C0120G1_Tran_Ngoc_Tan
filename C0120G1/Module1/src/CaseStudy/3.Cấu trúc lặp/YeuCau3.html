@@ -9,9 +9,30 @@
     let checkValidate = false;
     let emailCustomer;
     let birthdayCustomer;
+    let idCard;
     // let nameCustomer = prompt("Enter name Customer: ");
     // let idCard = prompt("Enter Id Card Customer: ");
     // let birthdayCustomer = prompt("Enter Birthday Customer (dd/MM/YY): ");
+    do {
+        checkValidate=false;
+         idCard = prompt("Enter Id Card Customer: ");
+        if(isNaN(idCard)){
+            alert("Id Card is Invalid !!! Please try again");
+            continue;
+        }
+        idCard=Number.parseFloat(idCard);
+        if(!Number.isInteger(idCard)){
+            alert("Id Card is Invalid !!! Please try again");
+            continue;
+        }
+        if(idCard>=100000000 && idCard<=999999999){
+            checkValidate=true;
+        }else {
+            alert("Id Card is Invalid !!! Please try again");
+        }
+
+    }while (!checkValidate);
+
     do {
         checkValidate = false;
         birthdayCustomer = prompt("Enter Birthday Customer (dd/MM/YY): ");
@@ -72,7 +93,7 @@
     //Hiển thị thông tin
     alert("Information Of Customer: \n" +
         // "name: " + nameCustomer +
-        // "\nId Card : "+ idCard +
+        "\nId Card : "+ idCard +
         "\nBirthday : "+ birthdayCustomer+
         "\nEmail : " + emailCustomer
         // "\nAddress : "+ birthdayCustomer+
