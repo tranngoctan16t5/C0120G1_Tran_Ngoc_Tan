@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let checkValidate = false;
+    let emailCustomer;
+    let birthdayCustomer;
+    // let nameCustomer = prompt("Enter name Customer: ");
+    // let idCard = prompt("Enter Id Card Customer: ");
+    // let birthdayCustomer = prompt("Enter Birthday Customer (dd/MM/YY): ");
+    do {
+        checkValidate = false;
+        birthdayCustomer = prompt("Enter Birthday Customer (dd/MM/YY): ");
+        if (birthdayCustomer.charAt(2) !== '/' || birthdayCustomer.charAt(5) !== '/') {
+            alert("Birthday is Invalid !!! Please try again");
+            continue;
+        }
+        let day = birthdayCustomer.substring(0, 2);
+        let month = birthdayCustomer.substring(3, 5);
+        let year = birthdayCustomer.substring(6, 10);
+        if (!isNaN(day) && !isNaN(month) && !isNaN(year)) {
+            day = Number.parseFloat(day);
+            month = Number.parseFloat(month);
+            year = Number.parseFloat(year);
+            if (Number.isInteger(day) && Number.isInteger(month) && Number.isInteger(year)) {
+                if (day > 0 && day < 32 && month < 13 && month > 0 && year >= 1960 && year < 2019) {
+                    checkValidate = true;
+                }
+            }
+        }
+
+        if (!checkValidate) {
+            alert("Birthday is invalid !!! Please try again")
+        }
+    }while (!checkValidate);
+    
+    
+    do {
+        checkValidate = true;
+        emailCustomer = prompt("Enter email Customer: ");
+        let countDoc = 0;
+        let countAt = 0;
+        for (let i = 0; i < emailCustomer.length; i++) {
+            if (emailCustomer.charAt(i) === "@") {
+                countAt++;
+            }
+            if (emailCustomer.charAt(i) === ".") {
+                countDoc++;
+            }
+        }
+        if (countAt !== 1 || countDoc < 1) {
+            checkValidate = false;
+            alert("Email is Invalid !!! Please try again");
+        }
+
+    } while (!checkValidate);
+
+
+    // let addressCustomer = prompt("Enter address Customer");
+    // let typeCustomer = prompt("Enter address Customer: ");
+    // let discount = prompt("Enter Type Customer: ");
+    // let numberOfAccompanying = prompt("Enter Number of Accompanying: ");
+    // let typeRoom = prompt("Enter Type Room: ");
+    // let rentDays = prompt("Enter Rent Days: ");
+    // let typeService = prompt("Enter Type Service: ");
+    // let totalPays=500*Number.parseInt(rentDays)*(1-Number.parseFloat(discount)/100);
+
+    //Hiển thị thông tin
+    alert("Information Of Customer: \n" +
+        // "name: " + nameCustomer +
+        // "\nId Card : "+ idCard +
+        "\nBirthday : "+ birthdayCustomer+
+        "\nEmail : " + emailCustomer
+        // "\nAddress : "+ birthdayCustomer+
+        // "\nType Customer : "+ addressCustomer+
+        // "\nDiscount : "+ discount+
+        // "\nAccompanying : "+ numberOfAccompanying+
+        // "\nType Service : "+ typeService+
+        // "\nBirthday : "+ birthdayCustomer+
+        // "\nTotal Pays : "+ totalPays
+
+    )
+
+
+</script>
+</body>
+</html>

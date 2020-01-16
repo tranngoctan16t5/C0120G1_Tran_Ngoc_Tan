@@ -17,7 +17,7 @@
     let typeRoom = "Business";
     let rentDays = 10;
     let typeService = "Villa";
-    let totalPays = 500 * rentDays * (1 - discount / 100);
+    // let totalPays = 500 * rentDays * (1 - discount / 100);
     let choose = prompt(
         "1. Show Information Customer.\n" +
         "2. Edit Information Customer.\n" +
@@ -40,7 +40,7 @@
             );
             break;
         case "2":
-            let chooseEdit=prompt(
+            let chooseEdit = prompt(
                 "Choose Infomation Customer You Want Edit: \n" +
                 "1.name: " + nameCustomer +
                 "\n2.Id Card : " + idCard +
@@ -68,7 +68,7 @@
                     emailCustomer = prompt("Enter Email You Want Edit:");
                     break;
                 case "5":
-                    addressCustomer= prompt("Enter Address You Want Edit:");
+                    addressCustomer = prompt("Enter Address You Want Edit:");
                     break;
                 case "6":
                     typeCustomer = prompt("Enter Type Customer You Want Edit:");
@@ -107,6 +107,56 @@
                 "\nRent Days : " + rentDays +
                 "\nType Service : " + typeService
             );
+            break;
+        case "3":
+            let moneyPerDays = 0;
+            if (typeService === "Villa") {
+                moneyPerDays = 500;
+            } else if (typeService === "House") {
+                moneyPerDays = 300;
+            } else {
+                moneyPerDays = 100;
+            }
+            let discountCondition = 0;
+            let currentYear = new Date().getFullYear();
+            let birthday = new Date(birthdayCustomer).getFullYear();
+            let ageCustomer = currentYear - birthday;
+            if (addressCustomer === "Đà Nẵng") {
+                discountCondition += 20;
+                if (ageCustomer > 30) {
+                    discountCondition += 2;
+                } else if (ageCustomer >= 20) {
+                    discountCondition += 1;
+                }
+            } else if (addressCustomer === "Huế") {
+                discountCondition += 10;
+            } else if (addressCustomer === "Quảng Nam") {
+                discountCondition += 5;
+            }
+            if (rentDays > 7) {
+                discountCondition += 30;
+            } else if (rentDays >= 5) {
+                discountCondition += 20;
+            } else if (rentDays >= 2) {
+                discountCondition += 10;
+            }
+            if (typeCustomer === "Diamond") {
+                discountCondition += 15;
+            } else if (typeCustomer === "Platium") {
+                discountCondition += 10;
+
+            } else if (typeCustomer === "Gold") {
+                discountCondition += 5;
+            } else if (typeCustomer === "Silver") {
+                discountCondition += 2;
+            }
+            let totalPays = moneyPerDays * rentDays * (1 - discount / 100);
+            totalPays = totalPays - discountCondition;
+            alert("Total Pays After Discount Condition: " + totalPays);
+            break;
+        default:
+            alert("Fail!!!");
+            break;
 
     }
 
