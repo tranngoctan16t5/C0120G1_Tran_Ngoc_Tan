@@ -10,28 +10,87 @@
     let emailCustomer;
     let birthdayCustomer;
     let idCard;
-    // let nameCustomer = prompt("Enter name Customer: ");
+    let discount;
+    let numberOfAccompanying;
+    let rentDays;
+    let nameCustomer = prompt("Enter name Customer: ");
+    let nameStandardized = "";
     // let idCard = prompt("Enter Id Card Customer: ");
     // let birthdayCustomer = prompt("Enter Birthday Customer (dd/MM/YY): ");
+    nameCustomer = nameCustomer.trim().toLocaleLowerCase();
+    for (let i = 0; i < nameCustomer.length; i++) {
+        if (nameCustomer.charAt(i) === " " && nameCustomer.charAt(i + 1) === " ") {
+            continue;
+        }
+        if (i === 0 || nameCustomer.charAt(i - 1) === " ") {
+            nameStandardized += nameCustomer.charAt(i).toLocaleUpperCase();
+            continue;
+        }
+        nameStandardized += nameCustomer.charAt(i);
+    }
+    nameCustomer = nameStandardized;
     do {
-        checkValidate=false;
-         idCard = prompt("Enter Id Card Customer: ");
-        if(isNaN(idCard)){
+        checkValidate = false;
+        rentDays = prompt("Enter Discount: ");
+        if (!isNaN(rentDays)) {
+            rentDays = Number.parseFloat(rentDays);
+            if (rentDays >= 0 && Number.isInteger(rentDays)) {
+                checkValidate = true;
+            }
+        }
+        if (!checkValidate) {
+            alert("RentDays Is Invalid!!! Please Try Again");
+        }
+    } while (!checkValidate);
+    do {
+        checkValidate = false;
+        discount = prompt("Enter Discount: ");
+        if (!isNaN(discount)) {
+            discount = Number.parseFloat(discount);
+            if (discount >= 0) {
+                checkValidate = true;
+            }
+        }
+        if (!checkValidate) {
+            alert("Discount Is Invalid!!! Please Try Again");
+        }
+    } while (!checkValidate);
+
+    do {
+        checkValidate = false;
+        numberOfAccompanying = prompt("Enter Number Of Accompanying:");
+        if (!isNaN(numberOfAccompanying)) {
+            numberOfAccompanying = Number.parseFloat(numberOfAccompanying);
+            if (numberOfAccompanying >= 0 && Number.isInteger(numberOfAccompanying)) {
+                checkValidate = true;
+            }
+        }
+        if (!checkValidate) {
+            alert("Number Of Accompanying Is Invalid !!! Please Try Again ");
+        }
+
+    } while (!checkValidate);
+
+
+    do {
+        checkValidate = false;
+        idCard = prompt("Enter Id Card Customer: ");
+        if (isNaN(idCard)) {
             alert("Id Card is Invalid !!! Please try again");
             continue;
         }
-        idCard=Number.parseFloat(idCard);
-        if(!Number.isInteger(idCard)){
+        idCard = Number.parseFloat(idCard);
+        if (!Number.isInteger(idCard)) {
             alert("Id Card is Invalid !!! Please try again");
             continue;
         }
-        if(idCard>=100000000 && idCard<=999999999){
-            checkValidate=true;
-        }else {
+        if (idCard >= 100000000 && idCard <= 999999999) {
+            checkValidate = true;
+        } else {
             alert("Id Card is Invalid !!! Please try again");
         }
 
-    }while (!checkValidate);
+    } while (!checkValidate);
 
     do {
         checkValidate = false;
@@ -42,24 +101,36 @@
         }
         let day = birthdayCustomer.substring(0, 2);
         let month = birthdayCustomer.substring(3, 5);
-        let year = birthdayCustomer.substring(6, 10);
+        let year = birthdayCustomer.substring(6, 15);
         if (!isNaN(day) && !isNaN(month) && !isNaN(year)) {
             day = Number.parseFloat(day);
             month = Number.parseFloat(month);
             year = Number.parseFloat(year);
             if (Number.isInteger(day) && Number.isInteger(month) && Number.isInteger(year)) {
+
                 if (day > 0 && day < 32 && month < 13 && month > 0 && year >= 1960 && year < 2019) {
                     checkValidate = true;
+                    if (month == 2 && day > 29) {
+                        checkValidate = false;
+
+                    }
+                    if (month == 4 ||month == 6 || month == 9 || month == 11  && day == 31 ) {
+                        checkValidate = false;
+
+                    }
+
                 }
+
             }
         }
+
 
         if (!checkValidate) {
             alert("Birthday is invalid !!! Please try again")
         }
-    }while (!checkValidate);
-    
-    
+    } while (!checkValidate);
+
+
     do {
         checkValidate = true;
         emailCustomer = prompt("Enter email Customer: ");
@@ -92,14 +163,14 @@
 
     //Hiển thị thông tin
     alert("Information Of Customer: \n" +
-        // "name: " + nameCustomer +
-        "\nId Card : "+ idCard +
-        "\nBirthday : "+ birthdayCustomer+
-        "\nEmail : " + emailCustomer
+        "name: " + nameCustomer +
+        "\nId Card : " + idCard +
+        "\nBirthday : " + birthdayCustomer +
+        "\nEmail : " + emailCustomer +
         // "\nAddress : "+ birthdayCustomer+
         // "\nType Customer : "+ addressCustomer+
-        // "\nDiscount : "+ discount+
-        // "\nAccompanying : "+ numberOfAccompanying+
+        "\nDiscount : " + discount +
+        "\nAccompanying : " + numberOfAccompanying
         // "\nType Service : "+ typeService+
         // "\nBirthday : "+ birthdayCustomer+
         // "\nTotal Pays : "+ totalPays
