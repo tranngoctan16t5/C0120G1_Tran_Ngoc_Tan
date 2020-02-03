@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrNameCustomer = [];
+    let choose = prompt("1.Add new customer." +
+        "\n2.Delete customer.");
+    switch (choose) {
+        case "1":
+            let arrLength = prompt("Enter the number of customer you want to add:");
+            for (var i = 0; i < arrLength; i++) {
+                arrNameCustomer.push(prompt("enter name customer no" + (i + 1)));
+            }
+            var result = "";
+            for (var i = 0; i < arrNameCustomer.length; i++) {
+                result += "\n" + (i + 1) + ". " + arrNameCustomer[i];
+            }
+            alert(result);
+            arrNameCustomer.sort();
+            result = "";
+            for (var i = 0; i < arrNameCustomer.length; i++) {
+                result += "\n" + (i + 1) + ". " + arrNameCustomer[i];
+            }
+            alert(result);
+            break;
+        case "2":
+            arrNameCustomer[0] = "tan";
+            arrNameCustomer[1] = "linh";
+            arrNameCustomer[2] = "dao";
+            arrNameCustomer[3] = "hoa";
+            arrNameCustomer[4] = "binh";
+            arrNameCustomer[5] = "an";
+            arrNameCustomer[6] = "hao";
+            arrNameCustomer[7] = "lanh";
+            arrNameCustomer[8] = "chuc";
+            arrNameCustomer[9] = "manh";
+            var result = "";
+            for (var i = 0; i < arrNameCustomer.length; i++) {
+                result += "\n" + (i + 1) + ". " + arrNameCustomer[i];
+            }
+            let indexDelete = prompt("Choose customer you want to delete: " + result);
+            arrNameCustomer.splice(Number.parseInt(indexDelete) - 1, 1);
+            var resultAfterDelete = "";
+            for (var i = 0; i < arrNameCustomer.length; i++) {
+                resultAfterDelete += "\n" + (i + 1) + ". " + arrNameCustomer[i];
+            }
+            alert("List customer after  delete :" + resultAfterDelete);
+
+            break;
+        default:
+            alert("Fail!!!");
+            break;
+    }
+</script>
+</body>
+</html>
