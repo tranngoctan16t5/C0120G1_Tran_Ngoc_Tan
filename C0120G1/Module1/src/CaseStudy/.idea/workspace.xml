@@ -52,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/5.Hàm/YeuCau5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="188" column="5" lean-forward="true" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+            <state relative-caret-position="495">
+              <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
             </state>
           </provider>
         </entry>
@@ -124,8 +124,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/CANVAS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -160,7 +161,7 @@
       <workItem from="1578930617288" duration="3283000" />
       <workItem from="1579137192722" duration="27926000" />
       <workItem from="1579235562143" duration="1354000" />
-      <workItem from="1580692659469" duration="15071000" />
+      <workItem from="1580692659469" duration="15931000" />
     </task>
     <task id="LOCAL-00001" summary="yêu cầu 2">
       <created>1578933766644</created>
@@ -201,7 +202,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47634000" />
+    <option name="totallyTimeSpent" value="48494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -273,8 +274,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5.Hàm/YeuCau5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="188" column="5" lean-forward="true" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+        <state relative-caret-position="495">
+          <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
         </state>
       </provider>
     </entry>
