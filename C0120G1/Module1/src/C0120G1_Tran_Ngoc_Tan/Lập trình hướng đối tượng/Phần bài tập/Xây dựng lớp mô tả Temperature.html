@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Temprerature(doC) {
+        //thuộc tính
+        this.doC=doC;
+        //phương thức
+        this.changedoF=changedoF;
+        this.changedoK=changedoK;
+        //xây dựng phương thức
+        function changedoF() {
+            return (this.doC*1.8)+32;
+
+        }
+        function changedoK() {
+            return this.doC+273;
+        }
+
+    }
+    var enter="<br>";
+    var Temprerature=new Temprerature(25);
+    document.write("Độ  F : "+Temprerature.changedoF()+enter);
+    document.write("Độ  K : "+Temprerature.changedoK()+enter);
+
+</script>
+</body>
+</html>

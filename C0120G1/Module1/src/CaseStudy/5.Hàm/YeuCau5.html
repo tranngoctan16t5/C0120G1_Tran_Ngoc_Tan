@@ -32,7 +32,7 @@
                 chooseDeleteCustomer();
                 break;
             case "5":
-                break;
+                return;
             default:
                 alert("Fail!!");
               displayMainmenu();
@@ -64,7 +64,7 @@
         arrInfor.push(typeRoom);
         arrInfor.push(rentDays);
         arrInfor.push(typeService);
-        arrListCustomers.push(arrInfor);
+         arrListCustomers.push(arrInfor);
         displayMainmenu();
 
 
@@ -79,7 +79,7 @@
         result += "\n" + (arrListCustomers.length + 1) + ".Back to menu.";
         let chooseDisplayInfor = prompt(result);
         if (chooseDisplayInfor.toString() != (arrListCustomers.length + 1).toString()) {
-            if(!chooseDeleteCustomer) {
+            if(!checkDeleteCustomer) {
                 displayInformationCustomer(Number.parseInt(chooseDisplayInfor) - 1);
             }else{
                 deleteCustomer(Number.parseInt(chooseDisplayInfor) - 1);
