@@ -9,14 +9,12 @@
     function myCircle (radius) {
         //thuộc tính
         this.radius=radius;
-        //phuong thức
-        this.getRadius=getRadius;
-        this.getArea=getArea;
+
         //xây dựng phương thức
-        function getRadius() {
+        this.getRadius=function () {
             return radius;
         }
-        function getArea() {
+        this.getArea=function () {
             return Math.PI*radius*radius;
         }
     }
