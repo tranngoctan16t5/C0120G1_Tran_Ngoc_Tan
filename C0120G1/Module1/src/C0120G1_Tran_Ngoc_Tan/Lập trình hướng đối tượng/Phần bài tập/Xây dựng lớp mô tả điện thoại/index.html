@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Nokia</h1>
+<p id="trangthaipin1"></p><br/>
+vùng nhớ lưu tin nhắn đang soạn:<p id="vungnholuutinnhandangsoan1"></p><br/>
+vùng nhớ lưu tin nhắn đến :<p id="vungnholuutinnhanden1"></p><br/>
+vùng nhớ lưu tin nhắn đã gửi:<p id="vungnholuutinnhandagui1"></p><br/>
+<input type="radio" name ="batTatDienThoai1" onclick="batDienThoai('nokia');"/>Bật
+<input type="radio" name ="batTatDienThoai1" checked onclick="tatDienThoai('nokia');"/>Tắt<br>
+<input type="button" value="Sạc Pin" onclick="sacPin('nokia');"><br><br>
+<p id="sacpin1"></p><br><br>
+Nhắn tin:<input type="text" id="nhaptin1"><input type="button" value="Soạn Tin Nhắn" onclick="soanTinNhan('nokia')"><br><br>
+<input type="button" value="Gửi Tin Nhắn" onclick="guiTinNhan('iphone');"><br><br>
+<input type="button" value="Xem tin nhắn" onclick="xemTinNhan('nokia');"><br><br>
+<input type="button"value="Nhận tin nhắn" onclick="nhanTinNhan('nokia');"><br><br>
+<p id="nokiaResult"></p>
+==============================================================<br>
+<h1>Iphone</h1>
+<p id="trangthaipin2"></p><br/>
+vùng nhớ lưu tin nhắn đang soạn:<p id="vungnholuutinnhandangsoan2"></p><br/>
+vùng nhớ lưu tin nhắn đến :<p id="vungnholuutinnhanden2"></p><br/>
+vùng nhớ lưu tin nhắn đã gửi:<p id="vungnholuutinnhandagui2"></p><br/>
+<input type="radio" name ="batTatDienThoai2" onclick="batDienThoai('iphone');"/>Bật
+<input type="radio" name ="batTatDienThoai2" checked onclick="tatDienThoai('iphone');"/>Tắt<br>
+<input type="button" value="Sạc Pin" onclick="sacPin('iphone');"><br><br>
+<p id="sacpin2"></p><br><br>
+Nhắn tin:<input type="text" id="nhaptin2"><input type="button" value="Soạn Tin Nhắn" onclick="soanTinNhan('iphone');"><br><br>
+
+<input type="button" value="Gửi Tin Nhắn" onclick="guiTinNhan('nokia');"><br><br>
+<input type="button" value="Xem tin nhắn" onclick="xemTinNhan('iphone');"><br><br>
+<input type="button"value="Nhận tin nhắn" onclick="nhanTinNhan('iphone');"><br><br>
+<p id="iphoneResult"></p>
+<script type="text/javascript" src="mobile.js"></script>
+<script type="text/javascript" src="run.js"></script>
+
+
+
+
+
+</body>
+</html>
