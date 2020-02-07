@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27c1fa9b-af8e-4859-9154-af4f65ddfc72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/nguoi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/run1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/công tắc và bóng đèn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần thực hành/Xây dựng lớp mô phỏng sự hoạt động của đèn pin Mục tiêu.html" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần thực hành/Xây dựng lớp mô phỏng sự hoạt động của đèn pin Mục tiêu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/nguoi.js" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/nguoi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/run1.js" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/run1.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+            <state relative-caret-position="480">
+              <caret line="29" column="64" lean-forward="true" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -53,17 +47,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/nguoi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-159">
-              <caret line="45" column="15" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="15" />
+            <state relative-caret-position="1632">
+              <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/run1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+            <state relative-caret-position="120">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -71,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/run.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4872">
+            <state relative-caret-position="1632">
               <caret line="203" selection-start-line="203" selection-end-line="203" />
             </state>
           </provider>
@@ -80,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/mobile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2088">
+            <state relative-caret-position="936">
               <caret line="87" column="2" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
             </state>
           </provider>
@@ -160,9 +154,9 @@
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/mobile.js" />
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/run.js" />
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/run.js" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/index.html" />
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/nguoi.js" />
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/run1.js" />
-        <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/index.html" />
       </list>
     </option>
   </component>
@@ -320,7 +314,7 @@
       <workItem from="1580748073601" duration="5265000" />
       <workItem from="1580778806260" duration="23431000" />
       <workItem from="1580865723982" duration="15741000" />
-      <workItem from="1581050022715" duration="14196000" />
+      <workItem from="1581050022715" duration="15732000" />
     </task>
     <task id="LOCAL-00001" summary="commit file demo">
       <created>1578289750120</created>
@@ -417,13 +411,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65750000" />
+    <option name="totallyTimeSpent" value="67286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24580152" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24045801" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -591,38 +585,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/mobile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2088">
-          <caret line="87" column="2" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/run.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4872">
+        <state relative-caret-position="1632">
           <caret line="203" selection-start-line="203" selection-end-line="203" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/nguoi.js">
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/mobile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159">
-          <caret line="45" column="15" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/run1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+        <state relative-caret-position="936">
+          <caret line="87" column="2" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+        <state relative-caret-position="480">
+          <caret line="29" column="64" lean-forward="true" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/nguoi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/run1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>

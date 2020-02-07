@@ -65,5 +65,12 @@ var Tao=function (weight) {
     this.decrease=function () {
         this.weight--;
     };
+    this.isEmpty=function () {
+        if(this.getWeight()>=0){
+            return true;
+        }else {
+            return false;
+        }
+    }
 
 }
