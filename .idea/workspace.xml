@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27c1fa9b-af8e-4859-9154-af4f65ddfc72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/nguoi.js" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/nguoi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/run1.js" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/run1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Check Validate Mail/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Check Validate Mail/run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate Account/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate Account/run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate numberphone/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate numberphone/run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate tên của lớp học/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate tên của lớp học/run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần thực hành/Kiểm tra Mã quốc gia nước Mỹ Mục tiêu/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần thực hành/Kiểm tra Mã quốc gia nước Mỹ Mục tiêu/kiemtra.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần thực hành/Kiểm tra ký tự đầu tiên của chuỗi có phải là chữ hoa không/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần thực hành/Kiểm tra ký tự đầu tiên của chuỗi có phải là chữ hoa không/isUpperCase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/Employeee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/Run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/YeuCau6_task2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Customer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Run.js" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Run.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,94 +33,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần thực hành/Xây dựng lớp mô phỏng sự hoạt động của đèn pin Mục tiêu.html">
+        <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/Employeee.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="411">
+              <caret line="70" column="1" lean-forward="true" selection-end-line="70" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/index.html">
+        <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/Run.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Run.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+            <state relative-caret-position="24">
+              <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/index.html">
+        <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/YeuCau6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="29" column="64" lean-forward="true" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/nguoi.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+            <state relative-caret-position="168">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/run1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/run.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="203" selection-start-line="203" selection-end-line="203" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/mobile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="87" column="2" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/5.Hàm/YeuCau5.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Customer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="98" column="96" selection-start-line="98" selection-start-column="96" selection-end-line="98" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần thực hành/Funny circles.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="86" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
-              <folding>
-                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="185">
+              <caret line="161" column="34" lean-forward="true" selection-start-line="161" selection-start-column="34" selection-end-line="161" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -139,9 +102,7 @@
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần thực hành/Funny circles.html" />
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả hình chữ nhật.html" />
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả Temperature.html" />
-        <option value="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Customer.js" />
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/YeuCau6.html" />
-        <option value="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Run.js" />
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/5.Hàm/YeuCau5.html" />
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần thực hành/Xây dựng lớp hình tròn.html" />
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Game đơn giản - di chuyển đối tượng.html" />
@@ -157,10 +118,31 @@
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/index.html" />
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/nguoi.js" />
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/run1.js" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Cấu trúc lặp/Phần bài tập/Hiển thị số nguyên tố/hienthisonguyento.html" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần thực hành/Kiểm tra ký tự đầu tiên của chuỗi có phải là chữ hoa không/run.js" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần thực hành/Kiểm tra ký tự đầu tiên của chuỗi có phải là chữ hoa không/hehe.js" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần thực hành/Kiểm tra ký tự đầu tiên của chuỗi có phải là chữ hoa không/isUpperCase.js" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần thực hành/Kiểm tra ký tự đầu tiên của chuỗi có phải là chữ hoa không/index.html" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần thực hành/Kiểm tra Mã quốc gia nước Mỹ Mục tiêu/demo.html" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần thực hành/Kiểm tra Mã quốc gia nước Mỹ Mục tiêu/kiemtra.js" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/run.js" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/index.html" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate Account/run.html" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate Account/run.js" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate Account/index.html" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate tên của lớp học/run.js" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate tên của lớp học/index.html" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate numberphone/run.js" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate numberphone/index.html" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/YeuCau6_task2.html" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/Employeee.js" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/Run.js" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Run.js" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Customer.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -210,8 +192,7 @@
               <item name="C0120G1" type="462c0819:PsiDirectoryNode" />
               <item name="Module1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="C0120G1_Tran_Ngoc_Tan" type="462c0819:PsiDirectoryNode" />
-              <item name="Lập trình hướng đối tượng" type="462c0819:PsiDirectoryNode" />
+              <item name="CaseStudy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
@@ -219,31 +200,8 @@
               <item name="C0120G1" type="462c0819:PsiDirectoryNode" />
               <item name="Module1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="C0120G1_Tran_Ngoc_Tan" type="462c0819:PsiDirectoryNode" />
-              <item name="Lập trình hướng đối tượng" type="462c0819:PsiDirectoryNode" />
-              <item name="Phần bài tập" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
-              <item name="C0120G1" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="C0120G1_Tran_Ngoc_Tan" type="462c0819:PsiDirectoryNode" />
-              <item name="Lập trình hướng đối tượng" type="462c0819:PsiDirectoryNode" />
-              <item name="Phần bài tập" type="462c0819:PsiDirectoryNode" />
-              <item name="Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
-              <item name="C0120G1" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="C0120G1_Tran_Ngoc_Tan" type="462c0819:PsiDirectoryNode" />
-              <item name="Lập trình hướng đối tượng" type="462c0819:PsiDirectoryNode" />
-              <item name="Phần bài tập" type="462c0819:PsiDirectoryNode" />
-              <item name="Xây dựng lớp mô tả điện thoại" type="462c0819:PsiDirectoryNode" />
+              <item name="CaseStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="6.Hướng đối tượng" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -268,6 +226,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\C0120G1\Module1\src\C0120G1_Tran_Ngoc_Tan\Xử lý chuỗi\Phần bài tập\Check Validate Mail" />
       <recent name="D:\CodeGym\C0120G1\Module1\src\C0120G1_Tran_Ngoc_Tan\Lập trình hướng đối tượng\Phần bài tập\Game đơn giản - di chuyển đối tượng" />
     </key>
   </component>
@@ -283,7 +242,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.bai1.html">
+    <configuration name="bai1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodeGym/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Cấu trúc lặp/phần thực hành/Sử dụng vòng lặp for/bai1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodeGym/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -292,6 +254,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.bai1.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.xây dựng lớp Date.html" />
       </list>
@@ -314,7 +277,8 @@
       <workItem from="1580748073601" duration="5265000" />
       <workItem from="1580778806260" duration="23431000" />
       <workItem from="1580865723982" duration="15741000" />
-      <workItem from="1581050022715" duration="15732000" />
+      <workItem from="1581050022715" duration="18293000" />
+      <workItem from="1581124198002" duration="17322000" />
     </task>
     <task id="LOCAL-00001" summary="commit file demo">
       <created>1578289750120</created>
@@ -411,25 +375,25 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67286000" />
+    <option name="totallyTimeSpent" value="87169000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24045801" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23402674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892665" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291592" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -465,6 +429,18 @@
     <MESSAGE value="Rectangle" />
     <MESSAGE value="hihi" />
     <option name="LAST_COMMIT_MESSAGE" value="hihi" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Cấu trúc lặp/phần thực hành/Sử dụng vòng lặp for/bai1.html</url>
+          <line>9</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan">
@@ -533,20 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/YeuCau6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2184">
-          <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần thực hành/Funny circles.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -559,50 +521,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần thực hành/Xây dựng lớp mô phỏng sự hoạt động của đèn pin Mục tiêu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
+        <state relative-caret-position="600">
           <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Customer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="98" column="96" selection-start-line="98" selection-start-column="96" selection-end-line="98" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/5.Hàm/YeuCau5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="203" selection-start-line="203" selection-end-line="203" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/mobile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="87" column="2" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="29" column="64" lean-forward="true" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+        <state relative-caret-position="696">
+          <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -613,10 +540,184 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/mobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2088">
+          <caret line="87" column="2" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/5.Hàm/YeuCau5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/run1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng lớp mô tả điện thoại/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần thực hành/Kiểm tra ký tự đầu tiên của chuỗi có phải là chữ hoa không/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần thực hành/Kiểm tra Mã quốc gia nước Mỹ Mục tiêu/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần thực hành/Kiểm tra ký tự đầu tiên của chuỗi có phải là chữ hoa không/isUpperCase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần thực hành/Kiểm tra Mã quốc gia nước Mỹ Mục tiêu/kiemtra.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Check Validate Mail/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Check Validate Mail/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate Account/run.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate tên của lớp học/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate Account/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate Account/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate tên của lớp học/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate numberphone/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate numberphone/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Cấu trúc lặp/Phần bài tập/Hiển thị số nguyên tố/hienthisonguyento.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Biến, kiểu dữ liệu và toán tử/Phần bài tập/Biến, kiểu dữ liệu và toán tử/BT_Bien3.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Cấu trúc lặp/phần thực hành/Sử dụng vòng lặp for/bai1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/YeuCau6_task2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/Employeee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="70" column="1" lean-forward="true" selection-end-line="70" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/Run.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/YeuCau6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Customer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="161" column="34" lean-forward="true" selection-start-line="161" selection-start-column="34" selection-end-line="161" selection-end-column="34" />
         </state>
       </provider>
     </entry>

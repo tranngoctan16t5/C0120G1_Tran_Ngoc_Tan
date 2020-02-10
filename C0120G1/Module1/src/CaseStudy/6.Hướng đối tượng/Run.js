@@ -1,7 +1,9 @@
 let listCustomers = [];
+let arrEmployees= [];
 let checkDeleteCustomer=false;
 let checkEditCustomer=false;
 let checkDisplayTotalPay=false;
+let checkDisplayTotalSalary=false;
 let validateBirthday = /^((0)[1-9]|[1-2][0-9]|(3)[0-1])(\/)((0)[1-9]|((1)[0-2]))(\/)\d{4}$/;
 let validateEmail = /^[a-z][a-z0-9_\.]{5,32}@[a-z0-9]{2,}(\.[a-z0-9]{2,4}){1,2}$/gm;
 
@@ -12,7 +14,10 @@ function displayMainmenu() {
         "\n3.total Pay." +
         "\n4.Edit information customer" +
         "\n5.Delete  customer." +
-        "\n6.Exit."
+        "\n6.Add new Employee."+
+        "\n7.Display information employee."+
+        "\n8.Total Salary."+
+        "\n9.Exit."
     );
     switch (choose) {
         case "1":
@@ -30,7 +35,16 @@ function displayMainmenu() {
         case "5":
             chooseDeleteCustomer();
             break;
-        case 6:
+        case "6":
+            addNewEmployee();
+            break;
+        case "7":
+            displayEmployee();
+            break;
+        case "8":
+            chooseDisplayTotalSalary();
+            break;
+        case "9":
             return;
         default:
             alert("Fail!!");
@@ -38,6 +52,20 @@ function displayMainmenu() {
             break;
 
     }
+}
+function addNewEmployee() {
+    let employee= new Employee();
+    employee.setName(prompt("Enter name employee"));
+    employee.setBirthday(prompt("Enter birthday "));
+    employee.setIdCard(prompt("Enter id card "));
+    employee.setPhone(prompt("Enter number phone"));
+    employee.setEmail(prompt("Enter email employee"));
+    employee.setLevel(prompt("Enter Level employee"));
+    employee.setLocal(prompt("Enter Local employee"));
+    employee.setSalary(prompt("Enter salary employee"));
+    arrEmployees.push(employee);
+    displayMainmenu();
+
 }
 
 function addNewCustomer() {
@@ -78,6 +106,27 @@ function addNewCustomer() {
     displayMainmenu();
 
 }
+function displayEmployee() {
+    let result = "";
+    for (var i = 0; i < arrEmployees.length; i++) {
+        result += "\n" + (i + 1) + "." + "name: " + arrEmployees[i].getName() +
+            "; Id Card: " + arrEmployees[i].getIdCard();
+    }
+    result += "\n" + (arrEmployees.length + 1) + ".Back to menu.";
+    let chooseDisplayInfor = prompt(result);
+    if (chooseDisplayInfor.toString() != (arrEmployees.length + 1).toString()) {
+        if (!checkDisplayTotalSalary){
+
+            displayInformationEmployee(Number.parseInt(chooseDisplayInfor) - 1);
+        }else {
+            displayTotalSalary(Number.parseInt(chooseDisplayInfor)-1);
+        }
+    } else {
+        checkDisplayTotalSalary=false;
+        displayMainmenu();
+    }
+
+}
 
 function displayCustomers() {
     let result = "";
@@ -103,7 +152,20 @@ function displayCustomers() {
     }
 
 }
+function displayInformationEmployee(index) {
 
+    alert("Information of customer:\n" +
+        "Name :" + arrEmployees[index].getName() +
+        "\nBirthday :" + arrEmployees[index].getBirthday() +
+        "\nCMND : " + arrEmployees[index].getIdCard() +
+        "\nPhone : " + arrEmployees[index].getPhone() +
+        "\nEmail : " + arrEmployees[index].getEmail() +
+        "\nTrình độ  : " + arrEmployees[index].getLevel() +
+        "\nVị trí : " + arrEmployees[index].getLocal() +
+        "\nLương: " + arrEmployees[index].getSalary()
+    );
+    displayMainmenu();
+}
 function displayInformationCustomer(index) {
     if (checkEditCustomer) {
         let chooseInforEdit = prompt(
@@ -155,9 +217,18 @@ function chooseDisplayTotalPay() {
     checkDisplayTotalPay=true;
     displayCustomers();
 }
+function chooseDisplayTotalSalary() {
+    checkDisplayTotalSalary=true;
+    displayEmployee();
+}
 function displayTotalPay(index) {
     alert(listCustomers[index].totalPays());
     checkDisplayTotalPay=false;
+    displayMainmenu();
+}
+function displayTotalSalary(index) {
+    alert(arrEmployees[index].totalSalary());
+    checkDisplayTotalSalary=false;
     displayMainmenu();
 }
 function chooseCustomerEdit() {
@@ -225,4 +296,5 @@ function deleteCustomer(index) {
     checkDeleteCustomer=false;
     displayMainmenu();
 }
+
 displayMainmenu();
