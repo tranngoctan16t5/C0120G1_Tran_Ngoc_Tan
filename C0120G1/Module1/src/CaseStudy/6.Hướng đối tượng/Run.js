@@ -1,11 +1,14 @@
 let listCustomers = [];
-let arrEmployees= [];
-let checkDeleteCustomer=false;
-let checkEditCustomer=false;
-let checkDisplayTotalPay=false;
-let checkDisplayTotalSalary=false;
+let arrEmployees = [];
+let checkDeleteCustomer = false;
+let checkEditCustomer = false;
+let checkDisplayTotalPay = false;
+let checkDisplayTotalSalary = false;
 let validateBirthday = /^((0)[1-9]|[1-2][0-9]|(3)[0-1])(\/)((0)[1-9]|((1)[0-2]))(\/)\d{4}$/;
-let validateEmail = /^[a-z][a-z0-9_\.]{5,32}@[a-z0-9]{2,}(\.[a-z0-9]{2,4}){1,2}$/gm;
+let validateEmail = /^[a-z][a-z0-9_\.]{5,32}@[a-z0-9]{2,}(\.[a-z0-9]{2,4}){1,2}$/;
+let validateInputNumber = /^\d+$/;
+let validateInputString = /^[a-zA-Z]+$/;
+
 
 function displayMainmenu() {
     let choose = prompt(
@@ -14,9 +17,9 @@ function displayMainmenu() {
         "\n3.total Pay." +
         "\n4.Edit information customer" +
         "\n5.Delete  customer." +
-        "\n6.Add new Employee."+
-        "\n7.Display information employee."+
-        "\n8.Total Salary."+
+        "\n6.Add new Employee." +
+        "\n7.Display information employee." +
+        "\n8.Total Salary." +
         "\n9.Exit."
     );
     switch (choose) {
@@ -53,8 +56,9 @@ function displayMainmenu() {
 
     }
 }
+
 function addNewEmployee() {
-    let employee= new Employee();
+    let employee = new Employee();
     employee.setName(prompt("Enter name employee"));
     employee.setBirthday(prompt("Enter birthday "));
     employee.setIdCard(prompt("Enter id card "));
@@ -69,43 +73,28 @@ function addNewEmployee() {
 }
 
 function addNewCustomer() {
-    let checkBirthday = false;
-    let checkEmail = false;
+
+
     let cus = new Customer();
     cus.setNameCustomer(prompt("Enter name customer"));
     cus.setIdCard(prompt("Enter id card"));
-
-    do {
-        cus.setBirthdayCustomer(prompt("Enter birthday"));
-        if (validateBirthday.test(cus.getBirthdayCustomer())) {
-            checkBirthday = true;
-        } else {
-            alert("Birth is invalid. please try again !!!");
-        }
-    }
-    while (!checkBirthday);
-
-    do {
-        cus.setEmailCustomer(prompt("Enter email"));
-        if (validateEmail.test(cus.getEmailCustomer())) {
-            checkEmail = true;
-        } else {
-            alert("Email is invalid. please try again !!!")
-        }
-
-    }
-    while (!checkEmail);
+    // Birthday
+    cus.setBirthdayCustomer(checkValid("Birthday",validateBirthday));
+    //Email
+    cus.setEmailCustomer(checkValid("Email",validateEmail));
     cus.setAddressCustomer(prompt("Enter address"));
-    cus.setTypeCustomer(prompt("Enter type customer"));
-    cus.setDiscount(prompt("Enter Discount"));
-    cus.setNumberOfAccompanying(prompt("Enter NumberOfAccompanying"));
-    cus.setTypeRoom(prompt("Enter type room"));
-    cus.setRentDays(prompt("Enter rent day"));
-    cus.setTypeService(prompt("Enter type service"));
+    cus.setTypeCustomer(checkValid("TypeCustomer",validateInputString));
+    //Discount
+    cus.setDiscount(checkValid("Discount",validateInputNumber));
+    cus.setNumberOfAccompanying(checkValid("NumberOfAccompanying",validateInputNumber));
+    cus.setTypeRoom(checkValid("TypeRoom",validateInputString));
+    cus.setRentDays(checkValid("RentDays",validateInputNumber));
+    cus.setTypeService(checkValid("TypeService",validateInputString));
     listCustomers.push(cus);
     displayMainmenu();
 
 }
+
 function displayEmployee() {
     let result = "";
     for (var i = 0; i < arrEmployees.length; i++) {
@@ -115,14 +104,14 @@ function displayEmployee() {
     result += "\n" + (arrEmployees.length + 1) + ".Back to menu.";
     let chooseDisplayInfor = prompt(result);
     if (chooseDisplayInfor.toString() != (arrEmployees.length + 1).toString()) {
-        if (!checkDisplayTotalSalary){
+        if (!checkDisplayTotalSalary) {
 
             displayInformationEmployee(Number.parseInt(chooseDisplayInfor) - 1);
-        }else {
-            displayTotalSalary(Number.parseInt(chooseDisplayInfor)-1);
+        } else {
+            displayTotalSalary(Number.parseInt(chooseDisplayInfor) - 1);
         }
     } else {
-        checkDisplayTotalSalary=false;
+        checkDisplayTotalSalary = false;
         displayMainmenu();
     }
 
@@ -139,19 +128,20 @@ function displayCustomers() {
     if (chooseDisplayInfor.toString() != (listCustomers.length + 1).toString()) {
         if (!checkDeleteCustomer && !checkDisplayTotalPay) {
             displayInformationCustomer(Number.parseInt(chooseDisplayInfor) - 1);
-        } else if(checkDeleteCustomer){
+        } else if (checkDeleteCustomer) {
             deleteCustomer(Number.parseInt(chooseDisplayInfor) - 1);
-        }else{
-            displayTotalPay(Number.parseInt(chooseDisplayInfor)-1);
+        } else {
+            displayTotalPay(Number.parseInt(chooseDisplayInfor) - 1);
         }
     } else {
-        checkDisplayTotalPay=false;
+        checkDisplayTotalPay = false;
         checkDeleteCustomer = false;
         checkEditCustomer = false;
         displayMainmenu();
     }
 
 }
+
 function displayInformationEmployee(index) {
 
     alert("Information of customer:\n" +
@@ -166,6 +156,7 @@ function displayInformationEmployee(index) {
     );
     displayMainmenu();
 }
+
 function displayInformationCustomer(index) {
     if (checkEditCustomer) {
         let chooseInforEdit = prompt(
@@ -211,62 +202,65 @@ function displayInformationCustomer(index) {
 //
 
 
-
-
 function chooseDisplayTotalPay() {
-    checkDisplayTotalPay=true;
+    checkDisplayTotalPay = true;
     displayCustomers();
 }
+
 function chooseDisplayTotalSalary() {
-    checkDisplayTotalSalary=true;
+    checkDisplayTotalSalary = true;
     displayEmployee();
 }
+
 function displayTotalPay(index) {
     alert(listCustomers[index].totalPays());
-    checkDisplayTotalPay=false;
+    checkDisplayTotalPay = false;
     displayMainmenu();
 }
+
 function displayTotalSalary(index) {
     alert(arrEmployees[index].totalSalary());
-    checkDisplayTotalSalary=false;
+    checkDisplayTotalSalary = false;
     displayMainmenu();
 }
+
 function chooseCustomerEdit() {
     checkEditCustomer = true;
     displayCustomers();
 }
+
 function editInformationCustomer(index, editIndex) {
     let editInfor = prompt("Enter Info You Want Change:");
     switch (editIndex) {
         case 0:
-            listCustomers[index].setNameCustomer( editInfor) ;
+            listCustomers[index].setNameCustomer(editInfor);
             break;
         case 1:
-            listCustomers[index].setIdCard(editInfor) ;
+            listCustomers[index].setIdCard(editInfor);
             break;
         case 2:
-            listCustomers[index].setBirthdayCustomer(editInfor) ;
+            listCustomers[index].setBirthdayCustomer(editInfor);
             break;
         case 3:
-            listCustomers[index].setEmailCustomer(editInfor) ;
+            listCustomers[index].setEmailCustomer(editInfor);
             break;
         case 4:
             listCustomers[index].setAddressCustomer(editInfor);
             break;
         case 5:
-            listCustomers[index].setTypeCustomer(editInfor)  ;
+            listCustomers[index].setTypeCustomer(editInfor);
             break;
         case 6:
-            listCustomers[index].setDiscount(editInfor)  ;
+            listCustomers[index].setDiscount(editInfor);
             break;
         case 7:
-            listCustomers[index].setNumberOfAccompanying(editInfor) ;
+            listCustomers[index].setNumberOfAccompanying(editInfor);
             break;
         case 8:
-            listCustomers[index].setTypeRoom(editInfor) ;
+            listCustomers[index].setTypeRoom(editInfor);
             break;
         case 9:
-            listCustomers[index].setRentDays(editInfor) ;
+            listCustomers[index].setRentDays(editInfor);
             break;
         case 10:
             listCustomers[index].setTypeService(editInfor);
@@ -279,21 +273,33 @@ function editInformationCustomer(index, editIndex) {
     displayMainmenu();
 
 }
+
 function chooseDeleteCustomer() {
-    checkDeleteCustomer=true;
+    checkDeleteCustomer = true;
     displayCustomers();
 }
+//function validation
+function checkValid(property,funcValid) {
+    while (true) {
+        let val = prompt("Enter " + property);
+        if (funcValid.test(val)){
+            return val;
+        }
+        alert(property + " is invalid. Please try again!!!");
+    }
+}
+
 function deleteCustomer(index) {
-    let chooseConfirm=prompt(
-        "Are you sure delete customer: Name:"+listCustomers[index].getNameCustomer()+
-        ";Id card: "+listCustomers[index].getIdCard()+
+    let chooseConfirm = prompt(
+        "Are you sure delete customer: Name:" + listCustomers[index].getNameCustomer() +
+        ";Id card: " + listCustomers[index].getIdCard() +
         "\n1.Yes\n2.No"
     );
-    if(chooseConfirm==="1"){
-        listCustomers.splice(index,1);
+    if (chooseConfirm === "1") {
+        listCustomers.splice(index, 1);
         alert("Delete Complete!!!");
     }
-    checkDeleteCustomer=false;
+    checkDeleteCustomer = false;
     displayMainmenu();
 }
 

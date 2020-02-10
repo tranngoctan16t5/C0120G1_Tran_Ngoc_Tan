@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27c1fa9b-af8e-4859-9154-af4f65ddfc72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Check Validate Mail/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Check Validate Mail/run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate Account/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate Account/run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate numberphone/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate numberphone/run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate tên của lớp học/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần bài tập/Validate tên của lớp học/run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần thực hành/Kiểm tra Mã quốc gia nước Mỹ Mục tiêu/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần thực hành/Kiểm tra Mã quốc gia nước Mỹ Mục tiêu/kiemtra.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần thực hành/Kiểm tra ký tự đầu tiên của chuỗi có phải là chữ hoa không/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Xử lý chuỗi/Phần thực hành/Kiểm tra ký tự đầu tiên của chuỗi có phải là chữ hoa không/isUpperCase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/Employeee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/Run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/YeuCau6_task2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Customer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Run.js" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/Employeee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/Run.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/YeuCau6_task2.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,25 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/Employeee.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="70" column="1" lean-forward="true" selection-end-line="70" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/Run.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Run.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
+            <state relative-caret-position="240">
+              <caret line="286" column="9" lean-forward="true" selection-start-line="286" selection-start-column="9" selection-end-line="286" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -58,17 +30,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/YeuCau6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            <state relative-caret-position="72">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Customer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="161" column="34" lean-forward="true" selection-start-line="161" selection-start-column="34" selection-end-line="161" selection-end-column="34" />
+            <state relative-caret-position="189">
+              <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -137,8 +109,8 @@
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/YeuCau6_task2.html" />
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/Employeee.js" />
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/Run.js" />
-        <option value="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Run.js" />
         <option value="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Customer.js" />
+        <option value="$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Run.js" />
       </list>
     </option>
   </component>
@@ -193,15 +165,6 @@
               <item name="Module1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="CaseStudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
-              <item name="C0120G1" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CaseStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="6.Hướng đối tượng" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,7 +241,7 @@
       <workItem from="1580778806260" duration="23431000" />
       <workItem from="1580865723982" duration="15741000" />
       <workItem from="1581050022715" duration="18293000" />
-      <workItem from="1581124198002" duration="17322000" />
+      <workItem from="1581124198002" duration="23640000" />
     </task>
     <task id="LOCAL-00001" summary="commit file demo">
       <created>1578289750120</created>
@@ -375,7 +338,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87169000" />
+    <option name="totallyTimeSpent" value="93487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -700,24 +663,24 @@
     <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Task 2/Run.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Run.js">
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Customer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
+        <state relative-caret-position="189">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/YeuCau6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        <state relative-caret-position="72">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Customer.js">
+    <entry file="file://$PROJECT_DIR$/C0120G1/Module1/src/CaseStudy/6.Hướng đối tượng/Run.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="161" column="34" lean-forward="true" selection-start-line="161" selection-start-column="34" selection-end-line="161" selection-end-column="34" />
+        <state relative-caret-position="240">
+          <caret line="286" column="9" lean-forward="true" selection-start-line="286" selection-start-column="9" selection-end-line="286" selection-end-column="9" />
         </state>
       </provider>
     </entry>
