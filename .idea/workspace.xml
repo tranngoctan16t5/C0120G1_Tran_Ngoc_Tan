@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27c1fa9b-af8e-4859-9154-af4f65ddfc72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng ứng dụng quản lý sản phẩm/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng ứng dụng quản lý sản phẩm/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/Xây dựng ứng dụng quản lý sản phẩm/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/lamp/bongden.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/lamp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập/lamp/run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Bai_Tap/DocSo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Bai_Tap/HienThiLoiChao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Bai_Tap/HienThiSNT100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Bai_Tap/KiemTraNamNhuan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/ChiSoIBM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/DinhDang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/HienThiThoiGianHeThong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/HinhChuNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/KhaiBaoBien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/KiemTraSoNguyenTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/PhuongTrinhBacNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/ThietKeMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/TimKiemTrongMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/TimUCLN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/TinhSoNgayTrongThang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/UngDungTinhLaiSuat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +47,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/C0120G1/Module1/src/C0120G1_Tran_Ngoc_Tan/Lập trình hướng đối tượng/Phần bài tập" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -50,6 +60,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\C0120G1\Module1\src\C0120G1_Tran_Ngoc_Tan\Lập trình hướng đối tượng\Phần bài tập" />
+      <recent name="D:\CodeGym\C0120G1\Module1\src\C0120G1_Tran_Ngoc_Tan\Lập trình hướng đối tượng\Phần bài tập\lamp" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\CodeGym\C0120G1\Module1\src\C0120G1_Tran_Ngoc_Tan\Xử lý chuỗi\Phần bài tập\Check Validate Mail" />
       <recent name="D:\CodeGym\C0120G1\Module1\src\C0120G1_Tran_Ngoc_Tan\Lập trình hướng đối tượng\Phần bài tập\Game đơn giản - di chuyển đối tượng" />
@@ -107,7 +121,13 @@
       <workItem from="1581564585798" duration="23000" />
       <workItem from="1581564880637" duration="19435000" />
       <workItem from="1581901573876" duration="229000" />
-      <workItem from="1581923024406" duration="2390000" />
+      <workItem from="1581923024406" duration="3693000" />
+      <workItem from="1582000188097" duration="8692000" />
+      <workItem from="1582190351331" duration="2887000" />
+      <workItem from="1582209718305" duration="604000" />
+      <workItem from="1582246850359" duration="28000" />
+      <workItem from="1582279488267" duration="489000" />
+      <workItem from="1582296422493" duration="901000" />
     </task>
     <task id="LOCAL-00001" summary="commit file demo">
       <created>1578289750120</created>
@@ -219,10 +239,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="175" y="0" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1581493700793" />
-    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1581901797656">
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1582296431128">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581901797656" />
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582296431128" />
     <state x="151" y="0" key="SettingsEditor" timestamp="1581494424790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
