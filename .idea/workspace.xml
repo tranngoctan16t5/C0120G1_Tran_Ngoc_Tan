@@ -2,22 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27c1fa9b-af8e-4859-9154-af4f65ddfc72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Bai_Tap/DocSo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Bai_Tap/HienThiLoiChao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Bai_Tap/HienThiSNT100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Bai_Tap/KiemTraNamNhuan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/ChiSoIBM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/DinhDang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/HienThiThoiGianHeThong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/HinhChuNhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/KhaiBaoBien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/KiemTraSoNguyenTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/PhuongTrinhBacNhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/ThietKeMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/TimKiemTrongMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/TimUCLN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/TinhSoNgayTrongThang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B1_Ngon_Ngu_Lap_Trinh_Java/Thuc_Hanh/UngDungTinhLaiSuat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/ChenPhanTuVaoMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/DemSoLanXuatHienKiTu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/GopMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/PhuongTrinhBacHai/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/PhuongTrinhBacHai/ThucThi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/SumCotMaTran.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/SumDuongCheoMaTran.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/TimGiaTriMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/TimMaxMaTran.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/XoaPhanTuMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/llegalTriangleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Thuc_Hanh/ArrayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Thuc_Hanh/ChuyenDoiNhietDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Thuc_Hanh/DaoNguocMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Thuc_Hanh/DemSoLuongSinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Thuc_Hanh/GiaTriLonNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Thuc_Hanh/TaoLopHinhChuNhat/Ex14_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Thuc_Hanh/TaoLopHinhChuNhat/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Thuc_Hanh/TimGiaTriNhoNhat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,6 +132,11 @@
       <workItem from="1582246850359" duration="28000" />
       <workItem from="1582279488267" duration="489000" />
       <workItem from="1582296422493" duration="901000" />
+      <workItem from="1582535960919" duration="8000" />
+      <workItem from="1582536040352" duration="5000" />
+      <workItem from="1582552554442" duration="3000" />
+      <workItem from="1582559393029" duration="599000" />
+      <workItem from="1582651078867" duration="607000" />
     </task>
     <task id="LOCAL-00001" summary="commit file demo">
       <created>1578289750120</created>
