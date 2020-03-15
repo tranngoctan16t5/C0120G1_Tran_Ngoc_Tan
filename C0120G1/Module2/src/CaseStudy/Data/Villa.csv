@@ -1,0 +1,9 @@
+id,nameService,areaUsed,rentalCosts,maxNumberOfPeople,typeRent,roomStandard,convenientDescription,areaPool,numberOfFloors
+f91b76c6c99e49c9b77de81e797fcb5a,Tan,121.0,121.0,12,Vip,ádsadsad,sadasd,12.0,21
+174727b625a04aaa8850aaf10d58d03b,Bo,1212.0,21.0,12,Da,đấ,sadsa,21.0,12
+174727b625a04aaa8850aaf10d58d03b,hai,1212.0,21.0,12,Da,đấ,sadsa,21.0,12
+f91b76c6c99e49c9b77de81e797fcb5a,san,121.0,121.0,12,Vip,ádsadsad,sadasd,12.0,21
+f91b76c6c99e49c9b77de81e797fcb5a,vip,121.0,121.0,12,hihi,ádsadsad,sadasd,12.0,21
+SVVL-1234,Villa,12121.0,1.0,12,Daa,sdas,asds,0.0,0
+SVVL-2121,Vippro,212.0,212.0,12,Sasasa,dasd,adsas,43.0,0
+SVVL-2222,Villaa,121.0,12.0,12,Sasa,asd,sad,133.0,30

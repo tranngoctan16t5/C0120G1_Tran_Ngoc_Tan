@@ -1,0 +1,7 @@
+id,nameService,areaUsed,rentalCosts,maxNumberOfPeople,typeRent,roomStandard,convenientDescription,numberOfFloors
+825965f057c84e9e9110419e5083ef9d,House,213.0,12.0,12,Dep,sad,asda,21
+825965f057c84e9e9110419e5083ef9d,House1,213.0,12.0,12,Dep,sad,asda,21
+825965f057c84e9e9110419e5083ef9d,House2,213.0,12.0,12,Dep,sad,asda,21
+825965f057c84e9e9110419e5083ef9d,House3,213.0,12.0,12,Dep,sad,asda,21
+825965f057c84e9e9110419e5083ef9d,House4,213.0,12.0,12,Dep,sad,asda,21
+SVHO-1234,House,12121.0,2121.0,13,vip,thang mat,rong rai,30

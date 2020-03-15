@@ -2,27 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27c1fa9b-af8e-4859-9154-af4f65ddfc72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/ChenPhanTuVaoMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/DemSoLanXuatHienKiTu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/GopMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/PhuongTrinhBacHai/QuadraticEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/PhuongTrinhBacHai/ThucThi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/SumCotMaTran.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/SumDuongCheoMaTran.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/TimGiaTriMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/TimMaxMaTran.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/XoaPhanTuMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/llegalTriangleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Thuc_Hanh/ArrayExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Thuc_Hanh/ChuyenDoiNhietDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Thuc_Hanh/DaoNguocMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Thuc_Hanh/DemSoLuongSinhVien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Thuc_Hanh/GiaTriLonNhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Thuc_Hanh/TaoLopHinhChuNhat/Ex14_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Thuc_Hanh/TaoLopHinhChuNhat/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Thuc_Hanh/TimGiaTriNhoNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B3_Ke_Thua/Bai_Tap/LopPoint2D_Point3D/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B3_Ke_Thua/Bai_Tap/LopPoint2D_Point3D/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B3_Ke_Thua/Bai_Tap/LopPoint2D_Point3D/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B3_Ke_Thua/Bai_Tap/Point/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B3_Ke_Thua/Bai_Tap/Point/MovablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B3_Ke_Thua/Bai_Tap/Point/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B3_Ke_Thua/Bai_Tap/Thiet_ke_trien_khai_lop_triangle/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B3_Ke_Thua/Bai_Tap/Thiet_ke_trien_khai_lop_triangle/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B3_Ke_Thua/Bai_Tap/Thiet_ke_trien_khai_lop_triangle/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B4_Advanced_Object_Oriented_Design/Thuc_Hanh/Comparator/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B4_Advanced_Object_Oriented_Design/Thuc_Hanh/Comparator/CircleComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B4_Advanced_Object_Oriented_Design/Thuc_Hanh/Comparator/CircleComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B4_Advanced_Object_Oriented_Design/Thuc_Hanh/Comparator/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B4_Advanced_Object_Oriented_Design/Thuc_Hanh/Lop_Animal_va_interface_Edible/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B4_Advanced_Object_Oriented_Design/Thuc_Hanh/Lop_Animal_va_interface_Edible/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B4_Advanced_Object_Oriented_Design/Thuc_Hanh/Lop_Animal_va_interface_Edible/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B4_Advanced_Object_Oriented_Design/Thuc_Hanh/Lop_Animal_va_interface_Edible/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B4_Advanced_Object_Oriented_Design/Thuc_Hanh/Lop_Animal_va_interface_Edible/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B5_Cau_Truc_Du_Lieu/Thuc_Hanh/Trien_Khai_Lop_List/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B5_Cau_Truc_Du_Lieu/Thuc_Hanh/Trien_Khai_Lop_List/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_73_comperator/SanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_73_comperator/TestSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_74_enum/SinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_74_enum/TestSinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_74_enum/XepLoai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_75_renluyen1/NhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_75_renluyen1/TestNhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_76_renluyen2/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_76_renluyen2/Excutive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_76_renluyen2/Hourly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_76_renluyen2/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_76_renluyen2/StaffMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_76_renluyen2/Volunteer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_77_renluyen3/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_77_renluyen3/BloodGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_77_renluyen3/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_77_renluyen3/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_77_renluyen3/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_77_renluyen3/Woman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_80_doc_ghi_file/FileFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_80_doc_ghi_file/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_81_serialize_File/KhachHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_81_serialize_File/SerializeFileFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_Tren_Mang/Video_81_serialize_File/TestFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_oop/Bai1/Commons/FuncValidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_oop/Bai1/Controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_oop/Bai1/Model/Engineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_oop/Bai1/Model/Officials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_oop/Bai1/Model/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_oop/Bai1/Model/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/Bai_Tap_oop/Bai1/View/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/CaseStudy_Module2/Commons/FuncValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/CaseStudy_Module2/Commons/FuncWriteAndReadFileCSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/CaseStudy_Module2/Controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/CaseStudy_Module2/Libs/commons-collections4-4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/CaseStudy_Module2/Libs/commons-lang3-3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/CaseStudy_Module2/Libs/opencsv-4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/CaseStudy_Module2/Models/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/CaseStudy_Module2/Models/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/CaseStudy_Module2/Models/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/CaseStudy_Module2/Models/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/CaseStudy_Module2/Models/Villa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/CaseStudy_Module2/Views/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/on_tap/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/on_tap/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/on_tap/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/on_tap/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/on_tap/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module2/Module2_JavaCore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2/Module2_JavaCore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/Xay_Dung_lop_StopWatch/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/Xay_Dung_lop_StopWatch/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/Xay_Dung_lop_StopWatch/StopWatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/Xay_Dung_lop_StopWatch/StopWatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/Xay_Dung_lop_StopWatch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/Xay_Dung_lop_StopWatch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/Xay_Dung_lop_StopWatch/StopWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2/src/B2_Mang_Va_Phuong_Thuc_Trong_Java/Bai_Tap/Xay_Dung_lop_StopWatch/StopWatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +103,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/C0120G1/Module2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -137,6 +193,13 @@
       <workItem from="1582552554442" duration="3000" />
       <workItem from="1582559393029" duration="599000" />
       <workItem from="1582651078867" duration="607000" />
+      <workItem from="1582710985980" duration="604000" />
+      <workItem from="1583067313505" duration="118000" />
+      <workItem from="1583069848649" duration="67000" />
+      <workItem from="1583070048554" duration="167000" />
+      <workItem from="1583130827847" duration="11000" />
+      <workItem from="1583287095386" duration="599000" />
+      <workItem from="1583303757032" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="commit file demo">
       <created>1578289750120</created>
@@ -248,14 +311,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="175" y="0" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1581493700793" />
-    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1582296431128">
+    <state x="526" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583070126998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582296431128" />
+    <state x="526" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1583070126998" />
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1583070214423">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583070214423" />
     <state x="151" y="0" key="SettingsEditor" timestamp="1581494424790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="151" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581494424790" />
+    <state x="359" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1583070070830">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="359" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583070070830" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
