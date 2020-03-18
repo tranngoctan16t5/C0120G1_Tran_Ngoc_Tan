@@ -385,8 +385,8 @@ delete from nhan_vien  where id_nhan_vien not in (select id_nhan_vien
 -- Cập nhật thông tin những khách hàng có TenLoaiKhachHang từ  Platinium lên Diamond, chỉ cập nhật những khách hàng đã từng đặt phòng
 --  với tổng Tiền thanh toán trong năm 2019 là lớn hơn 10.000.000 VNĐ.
  SET SQL_SAFE_UPDATES=0; 
-update khach_hang set id_loai_khach="1"
-where id_khach_hang in (
+update khach_hang set id_loai_khach=1
+where id_loai_khach=2 and id_khach_hang in (
                        select id_khach_hang
                          from hop_dong
                          where Year(ngay_lam_hop_dong)=2019
