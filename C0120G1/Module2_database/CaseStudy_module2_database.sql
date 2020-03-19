@@ -304,7 +304,7 @@ where a.id_hop_dong=b.id_hop_dong;
 select *
 from dich_vu_di_kem
 where id_dich_vu_di_kem IN (select id_dich_vu_di_kem
-                        from hop_dong_chi_tiethopdongchitiet
+                        from hop_dong_chi_tiet
                         where id_hop_dong IN(select id_hop_dong
                                            from hop_dong
 					                       where id_khach_hang IN(select id_khach_hang
