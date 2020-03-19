@@ -199,7 +199,7 @@ CREATE TABLE hop_dong_chi_tiet (
   KEY fk_hdct_hd (id_hop_dong),
   KEY fk_hdct_dvdk (id_dich_vu_di_kem),
   CONSTRAINT fk_hdct_dvdk FOREIGN KEY (id_dich_vu_di_kem) REFERENCES dich_vu_di_kem (id_dich_vu_di_kem),
-  CONSTRAINT fk_hdct_hd FOREIGN KEY (id_hop_dong) REFERENCES hop_dong (id_hop_dong)
+  CONSTRAINT fk_hdct_hd FOREIGN KEY (id_hop_dong) REFERENCES hop_dong (id_hop_dong) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 
