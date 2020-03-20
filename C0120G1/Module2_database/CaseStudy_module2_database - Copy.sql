@@ -282,13 +282,59 @@ from khach_hang;
 select ho_ten
 from khach_hang
 group by ho_ten;
+-- cach 3
+SELECT 
+    khach_hang.ho_ten
+FROM
+    khach_hang 
+UNION SELECT 
+    khach_hang.ho_ten
+FROM
+    khach_hang;
 
 -- task 9
 -- Thực hiện thống kê doanh thu theo tháng, nghĩa là tương ứng với mỗi tháng trong năm 2019 thì sẽ có bao nhiêu khách hàng thực hiện đặt phòng.
-select month(ngay_lam_hop_dong) as thang,count(month(ngay_lam_hop_dong)) as sokhachhangdatphong
-from hop_dong
-where year(ngay_lam_hop_dong)=2019
-group by thang;
+create temporary table Temp
+select 1 as Month
+union
+select 2 as Month
+union
+select 3 as Month
+union
+select 4 as Month
+union
+select 5 as Month
+union
+select 6 as Month
+union
+select 7 as Month
+union
+select 8 as Month
+union
+select 9 as Month
+union
+select 10 as Month
+union
+select 11 as Month
+union
+select 12 as Month;
+SELECT 
+    *
+FROM
+    Temp;
+SELECT 
+    Month,
+    COUNT(HD.id_hop_dong) AS 'Sô Lần Đặt',
+    SUM(HD.tong_tien)
+FROM
+    Temp
+        LEFT JOIN
+    hop_dong HD ON MONTH(HD.ngay_lam_hop_dong) = Month
+        AND YEAR(HD.ngay_lam_hop_dong) = 2019
+GROUP BY Month
+ORDER BY Month;
+-- Xoá bảng tạm
+drop temporary table Temp;
 
 -- task 10
 -- Hiển thị thông tin tương ứng với từng Hợp đồng thì đã sử dụng bao nhiêu Dịch vụ đi kèm. Kết quả hiển thị bao gồm IDHopDong
