@@ -306,12 +306,12 @@ select *
 from products mh join categories lh on mh.category_id=lh.id 
                  join suppliers npp on mh.supplier_id=npp.id;
 -- cau 19
-select lmh.name ,count(mh.stock)
+select lmh.name ,sum(mh.stock)
 from categories lmh join products mh on lmh.id=mh.category_id
 group by mh.category_id;
 
 -- cau 20
-select npp.name ,count(mh.stock)
+select npp.name ,sum(mh.stock)
 from suppliers npp join products mh on npp.id=mh.supplier_id
 group by mh.supplier_id;
 
