@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        #main {
+            background-color: blanchedalmond;
+            width: 70%;
+            height: 1000px;
+            margin-left: 212px;
+        }
+
+        #head {
+            height: 124px;
+            background-color: #4CAF50;
+            border: 1px solid #cfcfcf;
+            margin-bottom: 10px;
+        }
+
+        #head-link {
+            width: 100%;
+            height: 50px;
+            background-color: azure;
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        #left {
+            width: 200px;
+            height: 100%;
+            background-color: chocolate;
+            float: left;
+        }
+
+        #content {
+            width: 500px;
+            height: 100%;
+            float: left;
+            margin-left: 20px;
+        }
+
+        #right {
+            width: 207px;
+            height: 100%;
+            background-color: gold;
+            float: right;
+        }
+
+        #footer {
+            width: 100%;
+            height: 62px;
+            background-color: darkgrey;
+            clear: both;
+
+        }
+
+        #wrapper {
+            margin-bottom: 10px;
+            height: 400px;
+        }
+
+        #logo {
+            width: 30%;
+            height: 100%;
+            background-color: brown;
+            float: left;
+        }
+
+        #banner {
+            width: 70%;
+            height: 100%;
+            background-color: red;
+            float: left;
+        }
+
+        #head-link a {
+            text-decoration: none;
+            padding: 9px 16px;
+            display: block;
+            float: left;
+            text-align: center;
+            border-right: 1px solid black;
+            margin-top: 7px;
+        }
+
+        #head-link input {
+            border-radius: 50px;
+            height: 20px;
+            position: absolute;
+            top: 10px;
+            right: 30px;
+        }
+
+        #left-top {
+            width: 100%;
+            height: 50%;
+            background-color: blueviolet;
+        }
+
+        #left-bot {
+            width: 100%;
+            height: 47%;
+            background-color: darkslateblue;
+            margin-top: 12px;
+        }
+
+        #left-top ul {
+            list-style-type: none;
+            margin: 0;
+        }
+
+         a {
+            text-decoration: none;
+        }
+
+        #left-top li {
+            padding: 10px 16px;
+            margin-left: -30px;
+        }
+
+        #left-top li:hover {
+            background-color: lightgrey;
+        }
+        #content-top{
+            height: 35%;
+            width: 100%;
+        }
+        #content-bot{
+            height: 65%;
+            width:100% ;
+            background-color: indianred;
+        }
+        #content-tl{
+            height: 100%;
+            width:45% ;
+            float: left;
+            background-color: darkblue;
+        }
+        #content-tr{
+            height: 100%;
+            width:53% ;
+            float: right;
+            background-color: darksalmon;
+            position: relative;
+        }
+        .child{
+            height: 100px;
+            width: 200px;
+            background-color: chartreuse;
+            border: 1px solid black;
+
+        }
+        .child2{
+            position: absolute;
+            top: 20px;
+            left: 37px;
+        }
+        .child3{
+            position: absolute;
+            top: 30px;
+            left: 54px;
+        }
+        .child1{
+            position: absolute;
+            top: 10px;
+            left: 21px;
+        }
+        .child-ctb{
+            height: 100px;
+            width: 149px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 12px;
+            margin-top: 19px;
+            background-color: turquoise;
+        }
+        #footer ul{
+            list-style-type: none;
+            margin-left: 585px;
+            position: relative;
+            top: -16px;
+            left: 10px;
+        }
+        #footer a{
+            display: block;
+            float: left;
+            padding: 9px;
+            border-right: 1px solid black;;
+        }
+
+    </style>
+</head>
+<body>
+<div id="main">
+    <div id="head">
+        <div id="logo">
+
+        </div>
+        <div id="banner">
+
+        </div>
+    </div>
+    <div id="head-link">
+        <a href="">Home</a>
+        <a href="">Students</a>
+        <a href="">Course</a>
+        <a href="">About Us</a>
+        <a href="">Contact Us</a>
+        <input type="text" placeholder="search">
+    </div>
+    <div id="wrapper">
+        <div id="left">
+            <div id="left-top">
+                <ul>
+                    <li><a href="">Introduction</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Education</a></li>
+                    <li><a href="">Register</a></li>
+                    <li><a href="">Course</a></li>
+                </ul>
+            </div>
+            <div id="left-bot">
+
+            </div>
+
+        </div>
+        <div id="content">
+            <div id="content-top">
+               <div id="content-tl"></div>
+               <div id="content-tr">
+                   <div class="child child1"></div>
+                   <div class="child child2"></div>
+                   <div class="child child3"></div>
+               </div>
+            </div>
+            <div id="content-bot">
+             <div class="child-ctb"></div>
+             <div class="child-ctb"></div>
+             <div class="child-ctb"></div>
+             <div class="child-ctb"></div>
+             <div class="child-ctb"></div>
+             <div class="child-ctb"></div>
+            </div>
+        </div>
+        <div id="right">
+
+        </div>
+    </div>
+
+    <div id="footer">
+           <p>@2020 Tran Ngoc Tan</p>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Student</a></li>
+            <li><a href="">Courses</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

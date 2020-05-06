@@ -1,0 +1,36 @@
+Padding: 10px 2px 4px 5px (trên-phải-dưới-trái)
+Margin: 10px 2px 4px 5px (trên-phải-dưới-trái)
+===================================================
+Muốn sử dụng thuộc tính absolute thì thằng cha gần nhất của nó phải có thuộc tính position khác với static
+nếu không có thì thằng con sẽ dịch chuyển theo vị trí của trình duyệt
+-position:fixed thì nó sẽ dịch chuyển dựa theo vị trí của trình duyệt , và giúp cố định tại 1 vị trí trên trình duyệt
+==================================================================
+list-style-type: circle;
+list-style-type: square;
+list-style-type: upper-roman;
+list-style-type: lower-alpha;
+Sử dụng thuộc tính này để điều chỉnh chỉ mục cho thẻ danh sách ul và ol
+
+ul {
+    list-style-image: url('http://agilearn.vn/draftfile.php/263/user/draft/510120718/bullet_red%20_2.png');
+}
+Sử dụng cái này để đánh dấu chỉ mục bằng hình ảnh
+
+*Thuộc tính list-style-position xác định nơi sẽ đánh dấu các mục của danh sách sẽ xuất hiện bên trong hoặc bên ngoài dòng nội dung:
++Danh sách dưới đây được thiết lập list-style-position: inside:
++Danh sách dưới đây được thiết lập list-style-position: outside:
+"list-style-position: outside" là thiết lập mặc định.
+
+*Thuộc tính list-style là một thuộc tính rút gọn. Nó được sử dụng để đặt tất cả các thuộc tính của danh sách
+ trong một mô tả (declaration):
+ Khi sử dụng thuộc tính rút gọn, thứ tự của các giá trị trong thuộc tính là:
+list-style-type (nếu một danh sách đánh dâu bằng hình ảnh được chỉ định, giá trị của thuộc tính này sẽ được hiển thị nếu hình ảnh vì một số lý do nào đó không thể hiển thị)
+list-style-position (xác định cho vị trí đánh dấu mục danh sách xuất hiện bên trong hoặc bên ngoài dòng nội dung)
+list-style-image (chỉ định một hình ảnh như để đánh dấu các mục của danh sách)
+Nếu một trong các giá trị thuộc tính ở trên bị thiếu, giá trị mặc định cho của các thuộc tính này sẽ được sử dụng, nếu có.
+===================================================================================
+ *1em = 16px. Kích cỡ có thể được tính từ pixel sang em bằng cách sử dụng công thức: pixel / 16 = em
+==================================================================================
+Thuộc tính font-variant xác định có hay không một văn bản sẽ được hiển thị với một phông chữ small-caps 
+(chữ hoa có kích cỡ bằng chữ thường). Trong phông chữ small-caps, tất cả các chữ thường được chuyển đổi thành chữ hoa.
+ Tuy nhiên, các chữ được chuyển đối thành hoa hiển thị với kích cỡ nhỏ hơn so với các chữ hoa ban đầu trong văn bản.

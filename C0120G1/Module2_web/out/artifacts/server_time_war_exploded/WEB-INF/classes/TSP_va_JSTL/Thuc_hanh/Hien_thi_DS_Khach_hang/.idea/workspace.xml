@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60c0657b-e85a-4000-9bdd-f30ba144384c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2/src/On_lai_java/NhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2/src/On_lai_java/SanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2/src/On_lai_java/SapXepMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2/src/On_lai_java/SinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2/src/On_lai_java/TestNhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2/src/On_lai_java/TestSanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2/src/On_lai_java/TestSinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2/src/On_lai_java/XuLyChuoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Module2/src/On_lai_java/try_catch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DisplayCustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vi_Du_JSTL/DBUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vi_Du_JSTL/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vi_Du_JSTL/JstlCoreEx01Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../web/JSTL1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../web/display_customer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../web/jstl_core_example01.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Module2/out/production/Module2_JavaCore/On_lai_java/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Module2/out/production/Module2_JavaCore/On_lai_java/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Module2/src/On_lai_java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Module2/src/On_lai_java/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/artifacts/server_time_war_exploded/WEB-INF/classes/Tong_quan_ung_dung_web/Thuc_hanh/Tao_Trang_Web_Dang_Nhap_Va_Hien_Thi_Loi_Chao/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/artifacts/server_time_war_exploded/WEB-INF/classes/Tong_quan_ung_dung_web/Thuc_hanh/Tao_Trang_Web_Dang_Nhap_Va_Hien_Thi_Loi_Chao/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/artifacts/server_time_war_exploded/WEB-INF/classes/Tong_quan_ung_dung_web/Thuc_hanh/Tu_Dien/TranslateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/artifacts/server_time_war_exploded/WEB-INF/classes/Tong_quan_ung_dung_web/Thuc_hanh/Tu_Dien/TranslateServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/artifacts/server_time_war_exploded/jstl1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/artifacts/server_time_war_exploded/jstl1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/server_time/Tong_quan_ung_dung_web/Thuc_hanh/Tao_Trang_Web_Dang_Nhap_Va_Hien_Thi_Loi_Chao/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/server_time/Tong_quan_ung_dung_web/Thuc_hanh/Tao_Trang_Web_Dang_Nhap_Va_Hien_Thi_Loi_Chao/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/server_time/Tong_quan_ung_dung_web/Thuc_hanh/Tu_Dien/TranslateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/server_time/Tong_quan_ung_dung_web/Thuc_hanh/Tu_Dien/TranslateServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../server_time.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../server_time.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../web/jstl1.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="ProjectId" id="1ZtCQH82ZhX6Dq4TDZBcZWp9YZQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60c0657b-e85a-4000-9bdd-f30ba144384c" name="Default Changelist" comment="" />
+      <created>1585648986141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585648986141</updated>
+      <workItem from="1585648990124" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

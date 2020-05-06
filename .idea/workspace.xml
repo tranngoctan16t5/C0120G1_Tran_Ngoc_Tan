@@ -2,22 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27c1fa9b-af8e-4859-9154-af4f65ddfc72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2_web/web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C0120G1/Module2_web/web/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/On_lai_java/NhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/On_lai_java/SanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/On_lai_java/SapXepMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/On_lai_java/SinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/On_lai_java/TestNhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/On_lai_java/TestSanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/On_lai_java/TestSinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/On_lai_java/XuLyChuoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2/src/On_lai_java/try_catch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2_web/src/TSP_va_JSTL/Thuc_hanh/Hien_thi_DS_Khach_hang/.idea/Hien_thi_DS_Khach_hang.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2_web/src/TSP_va_JSTL/Thuc_hanh/Hien_thi_DS_Khach_hang/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2_web/src/TSP_va_JSTL/Thuc_hanh/Hien_thi_DS_Khach_hang/DBUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2_web/src/TSP_va_JSTL/Thuc_hanh/Hien_thi_DS_Khach_hang/DisplayCustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2_web/src/TSP_va_JSTL/Thuc_hanh/Vi_Du_JSTL/DBUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2_web/src/TSP_va_JSTL/Thuc_hanh/Vi_Du_JSTL/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2_web/src/TSP_va_JSTL/Thuc_hanh/Vi_Du_JSTL/JstlCoreEx01Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2_web/web/JSTL1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2_web/web/display_customer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/Module2_web/web/jstl_core_example01.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0120G1/test/test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/.idea/CaseStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/.idea/CaseStudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/Common/FileCabinet.class" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/Common/FileCabinet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/Controller/MainController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/Controller/MainController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/Controller/MainController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/Controller/MainController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/Controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/CaseStudy/Controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module2_web/out/artifacts/server_time_war_exploded/demo2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/On_lai_java/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2/out/production/Module2_JavaCore/On_lai_java/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module2/src/On_lai_java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2/src/On_lai_java/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module2_web/out/artifacts/server_time_war_exploded/WEB-INF/classes/Tong_quan_ung_dung_web/Thuc_hanh/Tao_Trang_Web_Dang_Nhap_Va_Hien_Thi_Loi_Chao/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2_web/out/artifacts/server_time_war_exploded/WEB-INF/classes/Tong_quan_ung_dung_web/Thuc_hanh/Tao_Trang_Web_Dang_Nhap_Va_Hien_Thi_Loi_Chao/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module2_web/out/artifacts/server_time_war_exploded/WEB-INF/classes/Tong_quan_ung_dung_web/Thuc_hanh/Tu_Dien/TranslateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2_web/out/artifacts/server_time_war_exploded/WEB-INF/classes/Tong_quan_ung_dung_web/Thuc_hanh/Tu_Dien/TranslateServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module2_web/out/artifacts/server_time_war_exploded/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2_web/out/artifacts/server_time_war_exploded/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module2_web/out/artifacts/server_time_war_exploded/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2_web/out/artifacts/server_time_war_exploded/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module2_web/out/artifacts/server_time_war_exploded/jstl1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2_web/out/artifacts/server_time_war_exploded/jstl1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module2_web/out/production/server_time/Tong_quan_ung_dung_web/Thuc_hanh/Tao_Trang_Web_Dang_Nhap_Va_Hien_Thi_Loi_Chao/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2_web/out/production/server_time/Tong_quan_ung_dung_web/Thuc_hanh/Tao_Trang_Web_Dang_Nhap_Va_Hien_Thi_Loi_Chao/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module2_web/out/production/server_time/Tong_quan_ung_dung_web/Thuc_hanh/Tu_Dien/TranslateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2_web/out/production/server_time/Tong_quan_ung_dung_web/Thuc_hanh/Tu_Dien/TranslateServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C0120G1/Module2_web/server_time.iml" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2_web/server_time.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module2_web/web/demo2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2_web/src/Tong_quan_ung_dung_web/Bai_Tap/Ung_dung_calculator/demo2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module2_web/web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2_web/web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module2_web/web/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module2_web/web/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module2_web/web/jstl1.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +46,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -43,6 +61,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -61,16 +80,17 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Debugger" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\CodeGym\C0120G1\Module1\src\C0120G1_Tran_Ngoc_Tan\Xử lý chuỗi\Phần bài tập\Check Validate Mail" />
-      <recent name="D:\CodeGym\C0120G1\Module1\src\C0120G1_Tran_Ngoc_Tan\Lập trình hướng đối tượng\Phần bài tập\Game đơn giản - di chuyển đối tượng" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CodeGym\C0120G1\Module1\src\C0120G1_Tran_Ngoc_Tan\Lập trình hướng đối tượng\Phần bài tập" />
       <recent name="D:\CodeGym\C0120G1\Module1\src\C0120G1_Tran_Ngoc_Tan\Lập trình hướng đối tượng\Phần bài tập\lamp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\C0120G1\Module3\CSS\Thuc_Hanh" />
+      <recent name="D:\CodeGym\C0120G1\Module1\src\C0120G1_Tran_Ngoc_Tan\Xử lý chuỗi\Phần bài tập\Check Validate Mail" />
+      <recent name="D:\CodeGym\C0120G1\Module1\src\C0120G1_Tran_Ngoc_Tan\Lập trình hướng đối tượng\Phần bài tập\Game đơn giản - di chuyển đối tượng" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.xây dựng lớp Date.html">
@@ -156,6 +176,10 @@
       <workItem from="1585036511903" duration="491000" />
       <workItem from="1585037797732" duration="613000" />
       <workItem from="1585039853071" duration="780000" />
+      <workItem from="1588692155072" duration="6437000" />
+      <workItem from="1588732265497" duration="126000" />
+      <workItem from="1588732421412" duration="53000" />
+      <workItem from="1588732509458" duration="13598000" />
     </task>
     <task id="LOCAL-00001" summary="commit file demo">
       <created>1578289750120</created>
@@ -279,10 +303,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585040035516" />
-    <state x="151" y="0" key="SettingsEditor" timestamp="1585036321895">
+    <state x="151" y="0" key="SettingsEditor" timestamp="1588692320173">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="151" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585036321895" />
+    <state x="151" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588692320173" />
     <state x="359" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1585039854268">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
