@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -19,9 +20,11 @@ body {
     width: 50%;
     background-color: #ef7338;
     position: absolute;
-    top: 10px;
+    top: 18px;
     right: 30px;
     border-radius: 10px;
+
+
 }
 #tp-search input{
     border-radius: 5px;
@@ -38,6 +41,96 @@ main{
 #head p{
     color: #9c9a9a;
     position: absolute;
-    top: 40px;
+    top: 58px;
     right: 556px;
 }
+#tp-search p{
+    position: absolute;
+    top: -7px;
+    right: 30px;
+    color: white;
+    font-size: 20px;
+}
+#head-link{
+    height: 51px;
+    width: 100%;
+    background: linear-gradient(grey, White);
+}
+#head-link a{
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 10px 52px;
+}
+#head-link a:hover{
+    background-color: #cfcfcf;
+}
+#head-link{
+    height: 38px;
+    width: 97%;
+    background-color: lawngreen;
+    margin: auto;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#home_page{
+    background-color: #ef7338;
+    border-radius: 5px;
+}
+.container{
+    height: 800px;
+    width: 100%;
+    background-color: rosybrown;
+    margin-top: 10px;
+}
+#left {
+    width: 15%;
+    height: 100%;
+    /*border: 2px solid black;*/
+    float: left;
+}
+
+#title-left {
+    height: 8%;
+    width: 100%;
+    background-color: red;
+
+}
+#title-left h1{
+    margin: 0;
+    padding-top: 12px;
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+}
+.list-left{
+    height: 90%;
+    width: 100%;
+    background-color: #f0f0f0;
+
+}
+.list-left ul{
+    list-style-type: none;
+    margin:0;
+}
+.list-left a{
+    text-decoration: none;
+    display: block;
+    padding: 15px 15px;
+    font-weight: bold;
+    color: black;
+}
+
+#content{
+    width: 85%;
+    height: 100%;
+    background-color: #9c9a9a;
+    float: left;
+}
+.content-img{
+    margin-left: 20px;
+    float: left;
+}
+
+
+

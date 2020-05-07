@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 50%;
+    height: 700px;
+    background-color: #CCCCCC;
+    margin: auto;
+}
+.left{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-color: #203864;
+
+}
+.right{
+    float: left;
+    width: 60%;
+    height: 100%;
+    background-color: #dae3f4;
+
+}
+.right-content{
+    height: 97%;
+    width: 92%;
+    border: 2px solid #476d94;
+    margin: auto;
+    margin-top: 7px;
+}
+.right-content1{
+    width: 90%;
+    height: 8%;
+    margin-top: 10px;
+    margin-left: 10px;
+
+
+}
+.right-content1 h4{
+    float: left;
+    padding-bottom: 10px;
+}
+h3{
+    padding-bottom: 10px;
+    margin-top: 14px;
+    margin-left: 10px;
+    font-weight: 900;
+}
+.daucham{
+    float: left;
+    margin-left: 10px;
+}
+.title{
+    height: 7%;
+    width: 90%;
+    margin-left: 10px
+}
+.title1{
+    padding-bottom: 40px;
+}
+img{
+    margin-left: 54px;
+    margin-top: 16px;
+    width: 60%;
+
+}
+h2 {
+    color: white;
+    font-size: 21px;
+    margin-left: 23px;
+    margin-top: 11px;
+}
+.content-left-info{
+    color: white;
+    padding-bottom: 40px;
+
+
+}
+.content-left-info p{
+    float: left;
+
+}
+.content-left-info h4{
+    float: left;
+    width: 100px;
+}
+.content-left{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.left h2{
+    font-size: 19px;
+}
+.text{
+    height: 151px;
+    width: 85%;
+    text-align: justify;
+    margin-left: 20px;
+    color: white;
+    margin-top: 10px;
+}
+.fa-check-circle{
+    color: deepskyblue;
+    margin-top: 20px;
+    margin-left: 20px;
+}
