@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27c1fa9b-af8e-4859-9154-af4f65ddfc72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/CodeGym.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CodeGym.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module3/CSS/Bai_Tap/Web_doc_truyen/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module3/CSS/Bai_Tap/Web_doc_truyen/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0120G1/Module3/CSS/Bai_Tap/Web_doc_truyen/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module3/CSS/Bai_Tap/Web_doc_truyen/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/C0120G1/Module3/CSS/Bai_Tap/CV" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/C0120G1/Module3/Boostrap/Bai_Tap/Landing_page" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -61,6 +59,7 @@
       <recent name="D:\CodeGym\C0120G1\Module1\src\C0120G1_Tran_Ngoc_Tan\Lập trình hướng đối tượng\Phần bài tập\Game đơn giản - di chuyển đối tượng" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\C0120G1\Module3\Boostrap\Bai_Tap\Landing_page" />
       <recent name="D:\CodeGym\C0120G1\Module3\CSS\Bai_Tap\CV" />
       <recent name="D:\CodeGym\C0120G1\Module1\src\C0120G1_Tran_Ngoc_Tan\Lập trình hướng đối tượng\Phần bài tập" />
       <recent name="D:\CodeGym\C0120G1\Module1\src\C0120G1_Tran_Ngoc_Tan\Lập trình hướng đối tượng\Phần bài tập\lamp" />
@@ -152,7 +151,7 @@
       <workItem from="1588692155072" duration="6437000" />
       <workItem from="1588732265497" duration="126000" />
       <workItem from="1588732421412" duration="53000" />
-      <workItem from="1588732509458" duration="35300000" />
+      <workItem from="1588732509458" duration="58133000" />
     </task>
     <task id="LOCAL-00001" summary="commit file demo">
       <created>1578289750120</created>
@@ -272,10 +271,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="526" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1583070126998" />
-    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1585040035516">
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1588870290634">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585040035516" />
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588870290634" />
     <state x="151" y="0" key="SettingsEditor" timestamp="1588692320173">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

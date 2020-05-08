@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header #navbar-a{
+   font-weight: 600;
+    font-size: 18px;
+    display: block;
+    padding: 0;
+    padding-left: 10px;
+    margin-top: 5px;
+    border-left: 2px solid black;
+    margin-left: 28px;
+
+}
+header #navbarDropdownMenuLink{
+    margin-left: 10px;
+    padding: 6px;
+}
+#navbarDropdownMenuLink:hover{
+    border-bottom: 2px solid black;
+}
+#navbarDropdownMenuLink1{
+    margin-left: 10px;
+    padding: 6px;
+}
+#navbarDropdownMenuLink1:hover{
+    border-bottom: 2px solid black;
+}
+header .nav-link{
+    padding: 6px;
+}
+header .icon-hd{
+    font-size: 25px;
+}
+header .fas ,.far{
+    font-size: 25px;
+    padding-right: 10px;
+}
+header .nav-icon{
+    margin-right: 75px;
+}
+header #navbarDropdownMenuLink4{
+    margin-left: 180px;
+}
+.carousel-caption {
+    padding-right: 600px;
+    bottom: 200px;
+}
+.wrap-icon ul{
+    list-style-type: none;
+}
+.wrap-icon li{
+    float: left;
+}
+
+
+
+
