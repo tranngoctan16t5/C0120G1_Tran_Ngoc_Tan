@@ -76,6 +76,42 @@ header #navbarDropdownMenuLink4{
     margin-top: 24px;
     font-weight: 300;
 }
+.img-left img{
+    width: 100%;
+    padding: 0px;
+}
+hr{
+    border-top: 2px solid rgb(62,44,100);
+    width: 95%;
+    margin-bottom: 2rem;
+}
+.near-footer .wrap-icon{
+    padding: 15px 95px;
+}
+footer ul{
+    list-style-type: none;
+}
+footer .col-md-2{
+    padding-left: 55px;
+}
+footer .top{
+    font-weight: bold;
+    font-size: 17px;
+}
+footer{
+    background-color: #F2F2F2;
+}
+section .bot-section{
+height: 80px;
+    background-color: #2F2F2F;
+}
+.bot-section p{
+    color: white;
+    font-size: 13px;
+    padding-left: 35px;
+}
+
+
 
 
 
