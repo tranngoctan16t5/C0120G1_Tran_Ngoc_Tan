@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27c1fa9b-af8e-4859-9154-af4f65ddfc72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CodeGym.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CodeGym.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module3/Boostrap/Bai_Tap/Landing_page/ccc.css" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module3/Boostrap/Bai_Tap/Landing_page/ccc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0120G1/Module3/Boostrap/Bai_Tap/Landing_page/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/C0120G1/Module3/Boostrap/Bai_Tap/Landing_page/demo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +151,9 @@
       <workItem from="1588692155072" duration="6437000" />
       <workItem from="1588732265497" duration="126000" />
       <workItem from="1588732421412" duration="53000" />
-      <workItem from="1588732509458" duration="58133000" />
+      <workItem from="1588732509458" duration="64035000" />
+      <workItem from="1588954412115" duration="79000" />
+      <workItem from="1589158930960" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="commit file demo">
       <created>1578289750120</created>
