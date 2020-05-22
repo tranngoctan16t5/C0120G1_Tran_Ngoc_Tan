@@ -1,0 +1,64 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "type_customer": "diamond",
+      "name": "Tran Ngoc Tan",
+      "birthday": "02/02/1998",
+      "idcard": "201775702",
+      "phone": "0905294321",
+      "email": "tan@gmail.com",
+      "address": "Da Nang"
+    },
+    {
+      "id": 2,
+      "type_customer": "diamond",
+      "name": "Nguyen My Linh",
+      "birthday": "02/02/1998",
+      "idcard": "201775702",
+      "phone": "0905294321",
+      "email": "tan@gmail.com",
+      "address": "Da Nang"
+    },
+    {
+      "id": 3,
+      "type_customer": "gold",
+      "name": "Nguyen Dinh Hoa",
+      "birthday": "02/02/1998",
+      "idcard": "201775702",
+      "phone": "0905294321",
+      "email": "tan@gmail.com",
+      "address": "Da Nang"
+    },
+    {
+      "id": 4,
+      "type_customer": "member",
+      "name": "Le Dinh Quoc",
+      "birthday": "02/02/1998",
+      "idcard": "201775702",
+      "phone": "0905294321",
+      "email": "tan@gmail.com",
+      "address": "Da Nang"
+    },
+    {
+      "id": 5,
+      "type_customer": "diamond",
+      "name": "Pham Minh Hung",
+      "birthday": "02/02/1998",
+      "idcard": "201775702",
+      "phone": "0905294321",
+      "email": "tan@gmail.com",
+      "address": "Da Nang"
+    },
+    {
+      "id": 6,
+      "type_customer": "diamond",
+      "name": "Pham Thai Cuong",
+      "birthday": "02/02/1998",
+      "idcard": "201775702",
+      "phone": "0905294321",
+      "email": "tan@gmail.com",
+      "address": "Nha Trang"
+    }
+  ]
+}
