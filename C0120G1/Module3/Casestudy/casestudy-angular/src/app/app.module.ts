@@ -9,6 +9,10 @@ import {HomeComponent} from './components/home/home.component';
 import {CustomerEditComponent} from './components/customer-edit/customer-edit.component';
 import {CustomerService} from './services/customer.service';
 import {HttpClientModule} from '@angular/common/http';
+import {FormsModule} from '@angular/forms';
+import {NgxPaginationModule} from 'ngx-pagination';
+import {Ng2SearchPipeModule} from 'ng2-search-filter';
+
 
 const appRoutes: Routes = [
   {
@@ -24,7 +28,7 @@ const appRoutes: Routes = [
         component: CustomerListComponent
       },
       {
-        path: ':id',
+        path: ':id/edit',
         component: CustomerEditComponent
       },
       {
@@ -49,7 +53,10 @@ const appRoutes: Routes = [
     BrowserModule,
     RouterModule,
     HttpClientModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    FormsModule,
+    NgxPaginationModule,
+    Ng2SearchPipeModule
   ],
   providers: [
     CustomerService

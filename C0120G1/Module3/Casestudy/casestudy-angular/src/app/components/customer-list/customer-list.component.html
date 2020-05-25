@@ -1,22 +1,52 @@
-<table class="table table-striped table-inverse table-responsive">
-  <thead class="thead-inverse">
-  <tr>
-    <th>Id</th>
-    <th>name</th>
-    <th>Type Customer</th>
-    <th>Birthday</th>
-    <th>Id Card</th>
-    <th>Phone</th>
-    <th>Email</th>
-    <th>Address</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td scope="row"></td>
-    <td></td>
-    <td></td>
-  </tr>
+<script src="../../services/customer.service.ts"></script>
+<div class="search-hero">
+  <input class="form-control mt-2" type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="&#61442;  Start searching for a customer by id or name or email">
+</div>
+<div class="card mt-2">
+  <h5 class="card-header">Danh sách khách hàng</h5>
+  <div class="card-body">
+    <button class="btn btn-danger" [routerLink]="['/customers/add']">Add customer</button>
+    <table class="table table-striped table-dark table-bordered table-hover mt-3 ">
+      <thead class="thead-inverse">
+      <tr>
 
-  </tbody>
-</table>
+        <th>Name</th>
+        <th>Type Customer</th>
+        <th>Birthday</th>
+        <th>Id Card</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>Action</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let item of customers | filter:searchText | paginate:{id:'listing_pagination',
+                                                                            itemsPerPage:4,
+                                                                            currentPage:page,
+                                                                            totalItems:totalRec}">
+
+        <td scope="row">{{item.name}}</td>
+        <td scope="row">{{item.typeCustomer}}</td>
+        <td scope="row">{{item.birthDay}}</td>
+        <td scope="row">{{item.idCard}}</td>
+        <td scope="row">{{item.phone}}</td>
+        <td scope="row">{{item.email}}</td>
+        <td scope="row">{{item.address}}</td>
+        <td scope="row">
+          <button class="btn btn-success" [routerLink]="['/customers',item.id,'edit']">Edit</button>
+          <button class="btn btn-success btn-delete"  (click)="onDeleteCustomer(item.id)">Delete</button>
+        </td>
+
+      </tr>
+
+      </tbody>
+    </table>
+    <div>
+      <pagination-controls  id="listing_pagination" maxSize="5" directionLinks="true" (pageChange)="page = $event"></pagination-controls>
+    </div>
+
+  </div>
+</div>
+
+
