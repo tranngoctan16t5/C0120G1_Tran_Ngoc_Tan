@@ -1,0 +1,78 @@
+<form action="" method="post" role="form">
+  <legend>Edit Employee</legend>
+  <div class="form-group">
+    <label for="">Name</label>
+    <input type="text" class="form-control" [(ngModel)]="employee.name" [ngModelOptions]="{standalone: true}">
+  </div>
+
+  <div class="form-group">
+  <label for="t">Vi tri</label>
+  <select name="" id="t" [(ngModel)]="employee.vitri" [ngModelOptions]="{standalone: true}">
+    <option value="giam doc" selected >giam doc</option>
+    <option value="giam sat">giam sat</option>
+    <option value="quan li">quan li</option>
+  </select>
+  </div>
+
+  <div class="form-group">
+    <label for="">Trinh do</label>
+    <select name="" id="" [(ngModel)]="employee.trinhdo" [ngModelOptions]="{standalone: true}">
+      <option value="dai hoc" selected >dai hoc</option>
+      <option value="cao dang">cao dang</option>
+      <option value="trung cap">trung cap</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="s">Bo phan</label>
+    <select name="" id="s" [(ngModel)]="employee.bophan" [ngModelOptions]="{standalone: true}">
+      <option value="sale" selected >sale</option>
+      <option value="marketing">marketing</option>
+      <option value="buong phong">buong phong</option>
+    </select>
+  </div>
+
+
+  <!--  <mat-form-field>-->
+  <!--    <mat-label>Date</mat-label>-->
+  <!--    <input matInput [matDatepicker]="myPicker"  placeholder="date" name="abc"  [(ngModel)]="employee.birthDay" [ngModelOptions]="{standalone: true}">-->
+  <!--    <mat-datepicker-toggle  matSuffix [for]="myPicker"></mat-datepicker-toggle>-->
+  <!--    <mat-datepicker #myPicker></mat-datepicker>-->
+  <!--  </mat-form-field>-->
+  <div class="form-group">
+
+    <!--      <input type="date" class="form-control" [(ngModel)]="employee.birthDay"  formControlName="birthday"    >-->
+    <mat-form-field>
+      <mat-label>BirthDay</mat-label>
+      <input matInput [matDatepicker]="myPicker"  placeholder="date" name="abc" [(ngModel)]="employee.birthday"  [ngModelOptions]="{standalone: true}"  >
+      <mat-datepicker-toggle  matSuffix [for]="myPicker"></mat-datepicker-toggle>
+      <mat-datepicker #myPicker></mat-datepicker>
+    </mat-form-field>
+
+
+  <div class="form-group">
+    <label for="">Id card</label>
+    <input type="number" class="form-control" [(ngModel)]="employee.idcard" [ngModelOptions]="{standalone: true}" >
+  </div>
+
+
+  <div class="form-group">
+    <label for="">luong</label>
+    <input type="number" class="form-control" [(ngModel)]="employee.luong" [ngModelOptions]="{standalone: true}">
+  </div>
+
+
+
+  <div class="form-group">
+    <label for="">Email</label>
+    <input type="text" class="form-control" [(ngModel)]="employee.email" [ngModelOptions]="{standalone: true}">
+  </div>
+
+  <div class="form-group">
+    <label for="">Address</label>
+    <input type="text" class="form-control" [(ngModel)]="employee.addresss" [ngModelOptions]="{standalone: true}">
+  </div>
+  <button class="btn btn-primary" (click)="onEditEmployee()">Edit</button>
+  </div>
+</form>
+

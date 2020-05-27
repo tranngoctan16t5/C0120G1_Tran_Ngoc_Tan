@@ -1,0 +1,31 @@
+<form action="" method="post" role="form">
+  <legend>Edit Contact Detail</legend>
+
+  <div class="form-group">
+    <label for="s">ID Contact</label>
+    <select name="" id="s" [(ngModel)]="contactDetail.idContact"  [ngModelOptions]="{standalone: true}" >
+      <option  *ngFor="let item of contacts" value="{{item.id}}">{{item.id}}</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="n">Service Bonus</label>
+    <select name="" id="n"  [(ngModel)]="contactDetail.serviceBonus" [ngModelOptions]="{standalone: true}"  >
+      <option value="massage">Massage</option>
+      <option value="karaoke">Karaoke</option>
+      <option value="Food">Food</option>
+    </select>
+  </div>
+
+
+  <div class="form-group">
+    <label >Amount</label>
+    <input type="number" class="form-control"    [(ngModel)]="contactDetail.amount" [ngModelOptions]="{standalone: true}">
+  </div>
+
+
+
+  <button class="btn btn-primary" (click)="onEditContactDetail()">Edit</button>
+
+</form>
+

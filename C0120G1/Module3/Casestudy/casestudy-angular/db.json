@@ -1,64 +1,61 @@
 {
   "customers": [
-    {
-      "id": 1,
-      "typeCustomer": "diamond",
-      "name": "Tran Ngoc Tan",
-      "birthDay": "02/02/1998",
-      "idCard": "201775702",
-      "phone": "0905294321",
-      "email": "tan@gmail.com",
-      "address": "Da Nang"
-    },
-    {
-      "id": 2,
-      "typeCustomer": "diamond",
-      "name": "Nguyen My Linh",
-      "birthDay": "02/02/1998",
-      "idCard": "201775702",
-      "phone": "0905294321",
-      "email": "tan@gmail.com",
-      "address": "Da Nang"
-    },
-    {
-      "id": 3,
-      "typeCustomer": "gold",
-      "name": "Nguyen Dinh Hoa",
-      "birthDay": "1999-02-02",
-      "idCard": "201775702",
-      "phone": "0905294321",
-      "email": "tan@gmail.com",
-      "address": "Da Lat"
-    },
-    {
-      "id": 4,
-      "typeCustomer": "member",
-      "name": "Le Dinh Quoc",
-      "birthDay": "02/02/1998",
-      "idCard": "201775702",
-      "phone": "0905294321",
-      "email": "tan@gmail.com",
-      "address": "Da Nang"
-    },
-    {
-      "id": 5,
-      "typeCustomer": "diamond",
-      "name": "Pham Minh Hung",
-      "birthDay": "02/02/1998",
-      "idCard": "201775702",
-      "phone": "0905294321",
-      "email": "tan@gmail.com",
-      "address": "Da Nang"
-    },
-    {
-      "name": "sadasdasd",
-      "typeCustomer": "platinium",
-      "birthDay": "1998-02-02",
-      "id": 6
-    },
-    {
-      "name": "sqewq",
-      "id": 8
-    }
-  ]
+{
+"id": 1,
+"MKH": "KH-0001",
+"typeCustomer": "diamond",
+"name": "Tran Ngoc Tan",
+"birthDay": "02/02/1998",
+"idCard": "201775702",
+"phone": "0905294321",
+"email": "tan@gmail.com",
+"address": "Da Nang"
+},
+{
+"id": 2,
+"MKH": "KH-0002",
+"typeCustomer": "diamond",
+"name": "Nguyen My Linh",
+"birthDay": "02/02/1998",
+"idCard": "201775702",
+"phone": "0905294321",
+"email": "tan@gmail.com",
+"address": "Da Nang"
+},
+{
+"id": 3,
+"MKH": "KH-0003",
+"typeCustomer": "gold",
+"name": "Nguyen Dinh Hoa",
+"birthDay": "1999-02-02",
+"idCard": "201775702",
+"phone": "0905294321",
+"email": "tan@gmail.com",
+"address": "Da Lat"
+},
+{
+"id": 4,
+"MKH": "KH-0004",
+"typeCustomer": "member",
+"name": "Le Dinh non",
+"birthDay": "02/02/1998",
+"idCard": "201775702",
+"phone": "0905294321",
+"email": "tan@gmail.com",
+"address": "Da Nang"
+},
+{
+"name": "asdsadasdasd",
+"id": 5
+},
+{
+"name": "sadsad",
+"MKH": "dasdsad",
+"idCard": 23123,
+"phone": 13123,
+"email": "213",
+"address": "dasd",
+"id": 6
+}
+]
 }

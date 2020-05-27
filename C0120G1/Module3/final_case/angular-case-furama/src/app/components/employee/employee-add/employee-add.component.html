@@ -1,0 +1,135 @@
+<form  [formGroup]="frmEmployee" autocomplete="off" novalidate="novalidate" (ngSubmit)="onSubmitForm()" >
+  <legend>Add Employee</legend>
+  <div class="form-group">
+
+    <div class="form-group">
+      <label for="">Code</label>
+      <input type="text"
+             class="form-control"
+             name="txtCodeCus"
+             formControlName="code"
+             [(ngModel)]="employee.code"
+      >
+      <p style="color: red"
+         *ngIf="frmEmployee.controls.code.dirty && frmEmployee.controls.code.errors?.required">
+        please enter code employee!!!
+      </p>
+      <p style="color: red"
+         *ngIf="frmEmployee.controls.code.dirty && frmEmployee.controls.code.errors?.pattern">
+         code employee invalid!!!
+      </p>
+    </div>
+
+    <label for="">name</label>
+    <input type="text"
+           class="form-control"
+           name="txtCodeCus"
+           formControlName="name"
+           [(ngModel)]="employee.name"
+    >
+    <p style="color: red"
+       *ngIf="frmEmployee.controls.name.dirty && frmEmployee.controls.name.errors?.required">
+      please enter name employee!!!
+    </p>
+
+  </div>
+
+
+  <div class="form-group">
+    <label for="t">Vi tri</label>
+    <select name="" id="t"  [(ngModel)]="employee.vitri" formControlName="vitri"   >
+      <option value="giam doc" selected >giam doc</option>
+      <option value="giam sat">giam sat</option>
+      <option value="quan li">quan li</option>
+    </select>
+  </div>
+
+
+  <div class="form-group">
+    <label for="">Trinh Do</label>
+    <select name="" id=""  [(ngModel)]="employee.trinhdo" formControlName="trinhdo"   >
+      <option value="dai hoc" selected >dai hoc</option>
+      <option value="cao dang">cao dang</option>
+      <option value="trung cap">trung cap</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="s">Bo Phan</label>
+    <select name="" id="s"  [(ngModel)]="employee.bophan" formControlName="bophan"   >
+      <option value="sale" selected >sale</option>
+      <option value="marketing">marketing</option>
+      <option value="buong phong">buong phong</option>
+    </select>
+  </div>
+
+
+  <!---->
+  <!--  <mat-form-field>-->
+  <!--    <mat-label>Date</mat-label>-->
+  <!--    <input matInput [matDatepicker]="myPicker"  placeholder="date" name="abc"  [(ngModel)]="employee.birthDay"  formControlName="birthday">-->
+  <!--    <mat-datepicker-toggle  matSuffix [for]="myPicker"></mat-datepicker-toggle>-->
+  <!--    <mat-datepicker #myPicker></mat-datepicker>-->
+  <!--  </mat-form-field>-->
+  <div class="form-group">
+
+    <mat-form-field>
+      <mat-label>BirthDay</mat-label>
+      <input matInput [matDatepicker]="myPicker"  placeholder="date" name="abc" [(ngModel)]="employee.birthday"  formControlName="birthday">
+      <mat-datepicker-toggle  matSuffix [for]="myPicker"></mat-datepicker-toggle>
+      <mat-datepicker #myPicker></mat-datepicker>
+    </mat-form-field>
+  </div>
+
+  <div class="form-group">
+    <label for="">Id card</label>
+    <input type="number" class="form-control"  [(ngModel)]="employee.idcard"  formControlName="idcard"   >
+    <p style="color: red"
+       *ngIf="frmEmployee.controls.idcard.dirty && frmEmployee.controls.idcard.errors?.required">
+     Please enter id card !!!
+    </p>
+    <p style="color: red"
+       *ngIf="frmEmployee.controls.idcard.dirty && frmEmployee.controls.idcard.errors?.pattern">
+      code idcard invalid!!!
+    </p>
+  </div>
+
+  <div class="form-group">
+    <label for="">luong</label>
+    <input type="number" class="form-control"  [(ngModel)]="employee.luong"  formControlName="luong"   >
+  </div>
+
+  <div class="form-group">
+    <label for="">Phone</label>
+    <input type="text" class="form-control"  [(ngModel)]="employee.phone" formControlName="phone"  >
+    <p style="color: red"
+       *ngIf="frmEmployee.controls.phone.dirty && frmEmployee.controls.phone.errors?.required">
+      please enter phone!!!
+    </p>
+    <p style="color: red"
+       *ngIf="frmEmployee.controls.phone.dirty && frmEmployee.controls.phone.errors?.pattern">
+      phone invalid!!!
+    </p>
+  </div>
+
+  <div class="form-group">
+    <label for="">Email</label>
+    <input type="text" class="form-control"  [(ngModel)]="employee.email"  formControlName="email" >
+<!--    <p style="color: red"-->
+<!--       *ngIf="frmEmployee.controls.email.dirty && frmEmployee.controls.email.errors?.required">-->
+<!--      please enter email!!!-->
+<!--    </p>-->
+<!--    <p style="color: red"-->
+<!--       *ngIf="frmEmployee.controls.email.dirty && frmEmployee.controls.email.errors?.pattern">-->
+<!--      email invalid !!!-->
+<!--    </p>-->
+  </div>
+
+  <div class="form-group">
+    <label for="">Address</label>
+    <input type="text" class="form-control"   [(ngModel)]="employee.addresss"  formControlName="addresss" >
+  </div>
+  <button type="submit" class="btn btn-primary" [disabled]="frmEmployee.invalid" (click)="onAddEmployee()">Save</button>
+
+</form>
+

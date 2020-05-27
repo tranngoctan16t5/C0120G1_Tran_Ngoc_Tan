@@ -1,0 +1,108 @@
+<form  [formGroup]="frmCustomer" autocomplete="off" novalidate="novalidate" (ngSubmit)="onSubmitForm()" >
+  <legend>Add Customer</legend>
+  <div class="form-group">
+    <label for="">Code cus</label>
+    <input type="text"
+           class="form-control"
+           name="txtCodeCus"
+           formControlName="MKH"
+           [(ngModel)]="customer.MKH"
+    >
+    <p style="color: red"
+       *ngIf="frmCustomer.controls.MKH.dirty && frmCustomer.controls.MKH.errors?.required">
+      please enter code customer!!!
+    </p>
+    <p style="color: red"
+       *ngIf="frmCustomer.controls.MKH.dirty && frmCustomer.controls.MKH.errors?.pattern">
+      Code Customer invalid !!!
+    </p>
+  </div>
+  <div class="form-group">
+    <label for="">Name</label>
+    <input type="text" class="form-control"  formControlName="name"   [(ngModel)]="customer.name" >
+    <p style="color: red"
+       *ngIf="frmCustomer.controls.name.dirty && frmCustomer.controls.name.errors?.required">
+      Please enter name !!!
+    </p>
+  </div>
+
+
+  <div class="form-group">
+    <label for="">Type customer: </label>
+    <select name="" id=""  [(ngModel)]="customer.typeCustomer" formControlName="typecustomer"   >
+      <option value="diamond" selected >Diamond</option>
+      <option value="platinium">Platinium</option>
+      <option value="gold">Gold</option>
+      <option value="silver">Silver</option>
+      <option value="member">member</option>
+    </select>
+  </div>
+
+
+
+    <div class="form-group">
+      <mat-form-field>
+        <mat-label>BirthDay</mat-label>
+        <input matInput [matDatepicker]="myPicker"  placeholder="date" name="abc" [(ngModel)]="customer.birthDay"  formControlName="birthday">
+        <mat-datepicker-toggle  matSuffix [for]="myPicker"></mat-datepicker-toggle>
+        <mat-datepicker #myPicker></mat-datepicker>
+      </mat-form-field>
+      <p style="color: red"
+         *ngIf="frmCustomer.controls.birthday.dirty && frmCustomer.controls.birthday.errors?.required">
+        Please enter birthday !!!
+      </p>
+    </div>
+
+  <div class="form-group">
+    <label for="">Id card</label>
+    <input type="number" class="form-control"  [(ngModel)]="customer.idCard"  formControlName="idcard"   >
+    <p style="color: red"
+            *ngIf="frmCustomer.controls.idcard.dirty && frmCustomer.controls.idcard.errors?.required">
+    Please enter id card !!!
+  </p>
+    <p style="color: red"
+       *ngIf="frmCustomer.controls.idcard.dirty && frmCustomer.controls.idcard.errors?.pattern">
+       id card in invalid!!!
+    </p>
+
+
+  </div>
+
+  <div class="form-group">
+    <label for="">Phone</label>
+    <input type="text" class="form-control"  [(ngModel)]="customer.phone" formControlName="phone"  >
+    <p style="color: red"
+       *ngIf="frmCustomer.controls.phone.dirty && frmCustomer.controls.phone.errors?.required">
+      Please enter phone !!!
+    </p>
+    <p style="color: red"
+       *ngIf="frmCustomer.controls.phone.dirty && frmCustomer.controls.phone.errors?.pattern">
+      Phone invalid !!!
+    </p>
+  </div>
+
+  <div class="form-group">
+    <label for="">Email</label>
+    <input type="text" class="form-control"  [(ngModel)]="customer.email"  formControlName="email" >
+    <p style="color: red"
+       *ngIf="frmCustomer.controls.email.dirty && frmCustomer.controls.email.errors?.required">
+      please enter email!!!
+    </p>
+    <p style="color: red"
+       *ngIf="frmCustomer.controls.email.dirty && frmCustomer.controls.email.errors?.pattern">
+      email invalid !!!
+    </p>
+  </div>
+
+  <div class="form-group">
+    <label for="">Address</label>
+    <input type="text" class="form-control"   [(ngModel)]="customer.address"  formControlName="address" >
+    <p style="color: red"
+       *ngIf="frmCustomer.controls.address.dirty && frmCustomer.controls.address.errors?.required">
+      Please enter address !!!
+    </p>
+  </div>
+  <button type="submit" class="btn btn-primary" [disabled]="frmCustomer.invalid" (click)="onAddCustomer()">Save</button>
+
+</form>
+

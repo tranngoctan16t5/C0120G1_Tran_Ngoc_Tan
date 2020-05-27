@@ -10,6 +10,7 @@
       <thead class="thead-inverse">
       <tr>
 
+        <th>Code Cus</th>
         <th>Name</th>
         <th>Type Customer</th>
         <th>Birthday</th>
@@ -26,6 +27,7 @@
                                                                             currentPage:page,
                                                                             totalItems:totalRec}">
 
+        <td scope="row">{{item.MKH}}</td>
         <td scope="row">{{item.name}}</td>
         <td scope="row">{{item.typeCustomer}}</td>
         <td scope="row">{{item.birthDay}}</td>
@@ -33,9 +35,9 @@
         <td scope="row">{{item.phone}}</td>
         <td scope="row">{{item.email}}</td>
         <td scope="row">{{item.address}}</td>
-        <td scope="row">
+        <td width="200">
           <button class="btn btn-success" [routerLink]="['/customers',item.id,'edit']">Edit</button>
-          <button class="btn btn-success btn-delete"  (click)="onDeleteCustomer(item.id)">Delete</button>
+          <button class="btn btn-success btn-delete ml-2"  (click)="onDeleteCustomer(item.id)">Delete</button>
         </td>
 
       </tr>

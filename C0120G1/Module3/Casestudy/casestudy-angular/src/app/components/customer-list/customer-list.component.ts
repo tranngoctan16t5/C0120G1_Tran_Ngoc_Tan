@@ -39,7 +39,7 @@ export class CustomerListComponent implements OnInit, OnDestroy {
   onDeleteCustomer(id: number) {
     if (confirm('xoa hay khong xoa noi 1 loi thoi???') === true) {
       this.subscription = this.customerService.deleteCustomer(id).subscribe((data: Customer) => {
-        this.updateDataAfterDelete(id);
+        this.ngOnInit();
       });
     }
 

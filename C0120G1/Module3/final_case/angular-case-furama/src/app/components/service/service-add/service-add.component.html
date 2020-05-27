@@ -1,0 +1,67 @@
+<form [formGroup]="frmService" autocomplete="off" novalidate="novalidate" (ngSubmit)="onSubmitForm()">
+  <legend>Add Service</legend>
+
+  <div class="form-group">
+    <label for="">Code</label>
+    <input type="text" class="form-control" formControlName="code" [(ngModel)]="service.code">
+    <p style="color: red"
+       *ngIf="frmService.controls.code.dirty && frmService.controls.code.errors?.required">
+      please enter code service!!!
+    </p>
+  </div>
+
+  <div class="form-group">
+    <label for="">Name</label>
+    <input type="text"
+           class="form-control"
+           name="txtCodeCus"
+           formControlName="name"
+           [(ngModel)]="service.name"
+    >
+    <p style="color: red"
+       *ngIf="frmService.controls.name.dirty && frmService.controls.name.errors?.required">
+      please enter code service!!!
+    </p>
+  </div>
+  <div class="form-group">
+    <label for="">Area</label>
+    <input type="number" class="form-control" formControlName="area" [(ngModel)]="service.area">
+  </div>
+
+  <div class="form-group">
+    <label for="">Floor</label>
+    <input type="number" class="form-control" formControlName="floor" [(ngModel)]="service.floor">
+  </div>
+
+  <div class="form-group">
+    <label for="">Number max people</label>
+    <input type="number" class="form-control" formControlName="numbermaxpeople" [(ngModel)]="service.maxNumberPeople">
+  </div>
+  <div class="form-group">
+    <label for="">Rent cost</label>
+    <input type="number" class="form-control" formControlName="rentcost" [(ngModel)]="service.rentCost">
+  </div>
+
+
+  <div class="form-group">
+    <label for="c">Rent Type</label>
+    <select name="" id="c" [(ngModel)]="service.rentType" formControlName="renttype">
+      <option value="Year" selected>Year</option>
+      <option value="Month">Month</option>
+      <option value="Day">Day</option>
+
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="">Status</label>
+    <select name="" id="" [(ngModel)]="service.status" formControlName="status">
+      <option value="over" selected>Over</option>
+      <option value="still">Still</option>
+
+    </select>
+  </div>
+
+  <button type="submit" class="btn btn-primary" [disabled]="frmService.invalid" (click)="onAddService()">Save</button>
+
+</form>
+

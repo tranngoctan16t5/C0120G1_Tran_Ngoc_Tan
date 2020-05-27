@@ -1,0 +1,80 @@
+<form  [formGroup]="frmCustomer" autocomplete="off" novalidate="novalidate" (ngSubmit)="onSubmitForm()" >
+  <legend>Add Customer</legend>
+  <div class="form-group">
+    <label for="">Code cus</label>
+    <input type="text"
+           class="form-control"
+           name="txtCodeCus"
+           formControlName="MKH"
+           [(ngModel)]="customer.MKH"
+    >
+    <p style="color: red"
+       *ngIf="frmCustomer.controls.MKH.dirty && frmCustomer.controls.MKH.errors?.required">
+      please enter code customer!!!
+    </p>
+    <p style="color: red"
+       *ngIf="frmCustomer.controls.MKH.dirty && frmCustomer.controls.MKH.errors?.pattern">
+      Code Customer invalid !!!
+    </p>
+  </div>
+  <div class="form-group">
+    <label for="">Name</label>
+    <input type="text" class="form-control"  formControlName="name"   [(ngModel)]="customer.name" >
+  </div>
+
+
+  <div class="form-group">
+    <label for="">Type customer</label>
+    <select name="" id=""  [(ngModel)]="customer.typeCustomer" formControlName="typecustomer"   >
+      <option value="diamond" selected >Diamond</option>
+      <option value="platinium">Platinium</option>
+      <option value="gold">Gold</option>
+      <option value="silver">Silver</option>
+      <option value="member">member</option>
+    </select>
+  </div>
+
+
+<!---->
+  <mat-form-field>
+    <mat-label>Date</mat-label>
+    <input matInput [matDatepicker]="myPicker"  placeholder="date" name="abc"  [(ngModel)]="customer.birthDay"  formControlName="birthday">
+    <mat-datepicker-toggle  matSuffix [for]="myPicker"></mat-datepicker-toggle>
+    <mat-datepicker #myPicker></mat-datepicker>
+  </mat-form-field>
+<!--  <div class="form-group">-->
+<!--    <label for="">Birthday</label>-->
+<!--    <input type="date" class="form-control"     >-->
+<!--  </div>-->
+
+  <div class="form-group">
+    <label for="">Id card</label>
+    <input type="number" class="form-control"  [(ngModel)]="customer.idCard"  formControlName="idcard"   >
+  </div>
+
+  <div class="form-group">
+    <label for="">Phone</label>
+    <input type="number" class="form-control"  [(ngModel)]="customer.phone" formControlName="phone"  >
+  </div>
+
+  <div class="form-group">
+    <label for="">Email</label>
+    <input type="text" class="form-control"  [(ngModel)]="customer.email"  formControlName="email" >
+    <p style="color: red"
+       *ngIf="frmCustomer.controls.email.dirty && frmCustomer.controls.email.errors?.required">
+      please enter email!!!
+    </p>
+    <p style="color: red"
+       *ngIf="frmCustomer.controls.email.dirty && frmCustomer.controls.email.errors?.pattern">
+      email invalid !!!
+    </p>
+  </div>
+
+  <div class="form-group">
+    <label for="">Address</label>
+    <input type="text" class="form-control"   [(ngModel)]="customer.address"  formControlName="address" >
+  </div>
+  <button type="submit" class="btn btn-primary" [disabled]="frmCustomer.invalid" (click)="onAddCustomer()">Save</button>
+
+</form>
+

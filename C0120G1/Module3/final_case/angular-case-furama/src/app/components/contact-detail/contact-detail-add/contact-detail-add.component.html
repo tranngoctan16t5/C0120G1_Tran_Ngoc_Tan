@@ -1,0 +1,29 @@
+<form  [formGroup]="frmContactDetail" autocomplete="off" novalidate="novalidate" (ngSubmit)="onSubmitForm()" >
+  <legend>Add ContactDetail</legend>
+
+  <div class="form-group">
+    <label for="s">ID Contact</label>
+    <select name="" id="s"  formControlName="idContact" [(ngModel)]="contactDetail.idContact"  >
+      <option  *ngFor="let item of contacts" value="{{item.id}}">{{item.id}}</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="n">Service Bonus</label>
+    <select name="" id="n"  formControlName="serviceBonus" [(ngModel)]="contactDetail.serviceBonus"  >
+      <option value="massage">Massage</option>
+      <option value="karaoke">Karaoke</option>
+      <option value="Food">Food</option>
+    </select>
+  </div>
+
+
+  <div class="form-group">
+    <label >Amount</label>
+    <input type="number" class="form-control"  formControlName="amount"   [(ngModel)]="contactDetail.amount" >
+  </div>
+
+  <button type="submit" class="btn btn-primary" [disabled]="frmContactDetail.invalid" (click)="onAddContactDetail()">Save</button>
+
+</form>
+

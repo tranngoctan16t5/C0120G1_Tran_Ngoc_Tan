@@ -1,0 +1,47 @@
+<form action="" method="post" role="form">
+  <legend>Edit Service</legend>
+  <div class="form-group">
+    <label for="">Name</label>
+    <select name="" id="" [(ngModel)]="service.name" [ngModelOptions]="{standalone: true}">
+      <option value="Villa" selected>Villa</option>
+      <option value="House">House</option>
+      <option value="Room">Room</option>
+    </select>
+
+  </div>
+  <div class="form-group">
+    <label for="">Area</label>
+    <input type="text" class="form-control" [(ngModel)]="service.area" [ngModelOptions]="{standalone: true}">
+  </div>
+  <div class="form-group">
+    <label for="">Floor</label>
+    <input type="text" class="form-control" [(ngModel)]="service.floor" [ngModelOptions]="{standalone: true}">
+  </div>
+  <div class="form-group">
+    <label for="">Number Max People</label>
+    <input type="text" class="form-control" [(ngModel)]="service.maxNumberPeople" [ngModelOptions]="{standalone: true}">
+  </div>
+  <div class="form-group">
+    <label for="">Rent Cost</label>
+    <input type="text" class="form-control" [(ngModel)]="service.rentCost" [ngModelOptions]="{standalone: true}">
+  </div>
+
+  <div class="form-group">
+    <label for="">Type service</label>
+    <select name="" id="" [(ngModel)]="service.rentType" [ngModelOptions]="{standalone: true}">
+      <option value="year" selected>year</option>
+      <option value="month">month</option>
+      <option value="day">day</option>
+    </select>
+
+  </div>
+  <div class="form-group">
+    <label for="f">Status</label>
+    <select name="" id="f" [(ngModel)]="service.status" [ngModelOptions]="{standalone: true}">
+      <option value="over" selected>over</option>
+      <option value="still">still</option>
+    </select>
+  </div>
+  <button class="btn btn-primary" (click)="onEditService()">Edit</button>
+</form>
+

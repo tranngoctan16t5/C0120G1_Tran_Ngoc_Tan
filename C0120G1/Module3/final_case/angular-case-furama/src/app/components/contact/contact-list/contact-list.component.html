@@ -1,0 +1,58 @@
+<script src="../../../services/contact.service.ts"></script>
+<div class="search-hero">
+  <input class="form-control mt-2" type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="&#61442;  Start searching for a contact by id or name or email">
+</div>
+<div class="card mt-2">
+  <h5 class="card-header">Danh sách Hợp Đồng</h5>
+  <div class="card-body">
+    <button class="btn btn-danger" [routerLink]="['/contacts/add']">Add contact</button>
+    <table class="table table-striped table-dark table-bordered table-hover mt-3 ">
+      <thead class="thead-inverse">
+      <tr>
+
+        <th>ID</th>
+        <th>Employee</th>
+        <th>Customer</th>
+        <th>Service</th>
+        <th>Date Create</th>
+        <th>Date Last</th>
+        <th>Money</th>
+        <th>Total Cost</th>
+
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let item of contacts | filter:searchText | paginate:{id:'listing_pagination',
+                                                                            itemsPerPage:4,
+                                                                            currentPage:page,
+                                                                            totalItems:totalRec}">
+
+        <td scope="row">{{item.id}}</td>
+        <td scope="row">{{item.employee}}</td>
+        <td scope="row">{{item.customer}}</td>
+        <td scope="row">{{item.service}}</td>
+        <td scope="row">{{item.dateCreate | date: 'dd/MM/yyyy'}}</td>
+        <td scope="row">{{item.dateLast | date: 'dd/MM/yyyy'}}</td>
+        <td scope="row">{{item.money}}</td>
+        <td scope="row">{{item.totalCost}}</td>
+        <td width="200">
+          <button class="btn btn-success" [routerLink]="['/contacts',item.id,'edit']">Edit</button>
+          <button class="btn btn-danger btn-delete ml-2"  (click)=openDialog(item.id)>Delete</button>
+        </td>
+
+      </tr>
+
+      </tbody>
+    </table>
+    <div>
+      <pagination-controls  id="listing_pagination" maxSize="5" directionLinks="true" (pageChange)="page = $event"></pagination-controls>
+    </div>
+    <button type="button" class="btn btn-warning">
+      Tong Tien <span class="badge badge-light">{{totalMoneyOfContact}} VND</span>
+      <span class="sr-only">Tong tien</span>
+    </button>
+
+  </div>
+</div>
+
+

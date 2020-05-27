@@ -1,0 +1,47 @@
+<script src="../../../services/contact-detail.service.ts"></script>
+<div class="search-hero">
+  <input class="form-control mt-2" type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="&#61442;  Start searching for a customer by id or name or email">
+</div>
+<div class="card mt-2">
+  <h5 class="card-header">Danh sách hợp đồng chi tiết</h5>
+  <div class="card-body">
+    <button class="btn btn-danger" [routerLink]="['/contact-details/add']">Add contact detail</button>
+    <table class="table table-striped table-dark table-bordered table-hover mt-3 ">
+      <thead class="thead-inverse">
+      <tr>
+
+        <th>id</th>
+        <th>Id Contact</th>
+        <th>Service Bonus</th>
+        <th>Amount</th>
+
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let item of contactDetails | filter:searchText | paginate:{id:'listing_pagination',
+                                                                            itemsPerPage:4,
+                                                                            currentPage:page,
+                                                                            totalItems:totalRec}">
+
+        <td scope="row">{{item.id}}</td>
+        <td scope="row">{{item.idContact}}</td>
+        <td scope="row">{{item.serviceBonus}}</td>
+        <td scope="row">{{item.amount}}</td>
+
+        <td width="200">
+          <button class="btn btn-success" [routerLink]="['/contact-details',item.id,'edit']">Edit</button>
+          <button class="btn btn-danger btn-delete ml-2"  (click)=openDialog(item.id)>Delete</button>
+        </td>
+
+      </tr>
+
+      </tbody>
+    </table>
+    <div>
+      <pagination-controls  id="listing_pagination" maxSize="5" directionLinks="true" (pageChange)="page = $event"></pagination-controls>
+    </div>
+
+  </div>
+</div>
+
+

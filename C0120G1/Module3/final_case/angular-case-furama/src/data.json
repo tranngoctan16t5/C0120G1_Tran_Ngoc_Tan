@@ -1,0 +1,248 @@
+{
+  "customers": [
+    {
+      "MKH": "KH-0001",
+      "name": "pham minh hung",
+      "typeCustomer": "gold",
+      "birthDay": "1998-01-13T17:00:00.000Z",
+      "idCard": 2321321321,
+      "phone": 213213,
+      "email": "tan@gmail.com",
+      "address": "Nha Trang",
+      "id": 8
+    },
+    {
+      "MKH": "KH-0002",
+      "name": "Nguyen Dinh Hoa",
+      "typeCustomer": "platinium",
+      "idCard": 23123,
+      "phone": 13213,
+      "email": "adsd@gmail.com",
+      "address": "sfsadfasd",
+      "id": 9,
+      "birthDay": "1998-02-02"
+    },
+    {
+      "MKH": "KH-0003",
+      "name": "Le Dinh Quoc ",
+      "typeCustomer": "platinium",
+      "birthDay": "2020-05-25T17:00:00.000Z",
+      "idCard": 901212121,
+      "phone": "0901222222",
+      "email": "quocjav@gmail.com",
+      "address": "Quang Nam",
+      "id": 10
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "code": "NV-0001",
+      "name": "Tran Ngoc Tan",
+      "vitri": "Trưởng phòng",
+      "trinhdo": "Đại học",
+      "bophan": "maketting",
+      "birthday": "02/02/1998",
+      "idcard": 2017321212,
+      "luong": 200000,
+      "phone": "2321323",
+      "email": "tan@gmail.com",
+      "addresss": "da nang"
+    },
+    {
+      "id": 2,
+      "code": "NV-0002",
+      "name": "Tran Van Thanh",
+      "vitri": "Trưởng phòng",
+      "trinhdo": "Đại học",
+      "bophan": "maketting",
+      "birthday": "02/02/1998",
+      "idcard": 2017321212,
+      "luong": 200000,
+      "phone": "2321323",
+      "email": "tan@gmail.com",
+      "addresss": "da nang"
+    },
+    {
+      "id": 3,
+      "code": "NV-0002",
+      "name": "Tran Van Nam",
+      "vitri": "giam doc",
+      "trinhdo": "Đại học",
+      "bophan": "maketting",
+      "birthday": "2020-05-27T17:00:00.000Z",
+      "idcard": 2017321212,
+      "luong": 200000,
+      "phone": "2321323",
+      "email": "tan@gmail.com",
+      "addresss": "hue"
+    },
+    {
+      "code": "NV-0004",
+      "name": "Nguyen Cao Bang",
+      "vitri": "giam sat",
+      "trinhdo": "cao dang",
+      "bophan": "marketing",
+      "birthday": "2020-05-27T17:00:00.000Z",
+      "idcard": 848484884,
+      "luong": 1000000,
+      "phone": "0901232332",
+      "email": "bang@gmail.com",
+      "addresss": "Da Nang",
+      "id": 4
+    },
+    {
+      "code": "NV-0005",
+      "name": "nguyen vu thanh tien",
+      "vitri": "giam doc",
+      "trinhdo": "dai hoc",
+      "bophan": "marketing",
+      "birthday": "2020-05-12T17:00:00.000Z",
+      "idcard": 121212121,
+      "luong": 121212,
+      "phone": "(84)+909999999",
+      "email": "tan@gmail.com",
+      "addresss": "SADSADSAD",
+      "id": 5
+    }
+  ],
+  "services": [
+    {
+      "id": 2,
+      "code": "DV-0002",
+      "name": "House",
+      "area": 2000,
+      "floor": 10,
+      "maxNumberPeople": 12,
+      "rentCost": 1000000,
+      "rentType": "year",
+      "status": "over"
+    },
+    {
+      "id": 3,
+      "code": "DV-0003",
+      "name": "Villa",
+      "area": 2000,
+      "floor": 10,
+      "maxNumberPeople": 12,
+      "rentCost": 1000000,
+      "rentType": "year",
+      "status": "over"
+    },
+    {
+      "code": "DV-0004",
+      "name": "sadsd",
+      "area": 23123,
+      "floor": 213123,
+      "maxNumberPeople": 12312,
+      "rentCost": "2312321312321312",
+      "rentType": "day",
+      "status": "over",
+      "id": 4
+    },
+    {
+      "code": "DV-0005",
+      "name": "asdfsd",
+      "area": 12321,
+      "floor": 3213213,
+      "maxNumberPeople": 12321,
+      "rentCost": 213123,
+      "rentType": "Year",
+      "status": "over",
+      "id": 5
+    },
+    {
+      "code": "DV-0001",
+      "name": "dsadas",
+      "area": 13123,
+      "floor": 123213,
+      "maxNumberPeople": 12321,
+      "rentCost": 123213123,
+      "rentType": "Month",
+      "status": "still",
+      "id": 6
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "employee": "Tran Van Thanh",
+      "customer": "sadsad",
+      "service": "Villa",
+      "dateCreate": "2020-05-05T17:00:00.000Z",
+      "dateLast": "2020-05-27T17:00:00.000Z",
+      "money": 1000000,
+      "totalCost": 30000000
+    },
+    {
+      "dateCreate": "2020-05-04T17:00:00.000Z",
+      "dateLast": "2020-05-26T17:00:00.000Z",
+      "money": "23123213",
+      "totalCost": 13213,
+      "id": 2,
+      "customer": "Le Dinh Quoc ",
+      "employee": "Tran Van Nam",
+      "service": "House"
+    },
+    {
+      "dateCreate": "2020-05-04T17:00:00.000Z",
+      "dateLast": "2020-05-28T17:00:00.000Z",
+      "money": 21312,
+      "totalCost": 3123123,
+      "id": 3,
+      "customer": "Nguyen Dinh Hoa",
+      "employee": "Tran Van Thanh",
+      "service": "Villa"
+    },
+    {
+      "customer": "pham minh hung",
+      "employee": "Tran Van Nam",
+      "service": "Room",
+      "id": 4,
+      "dateCreate": "2020-05-05T17:00:00.000Z",
+      "dateLast": "2020-05-25T17:00:00.000Z",
+      "money": "21321",
+      "totalCost": 213123
+    },
+    {
+      "customer": "pham minh hung",
+      "employee": "Tran Van Nam",
+      "service": "Villa",
+      "dateCreate": "1998-02-01T17:00:00.000Z",
+      "dateLast": "1998-03-03T17:00:00.000Z",
+      "money": 213213,
+      "totalCost": 3213213,
+      "id": 5
+    },
+    {
+      "customer": "Le Dinh Quoc ",
+      "employee": "nguyen vu thanh tien",
+      "service": "Villa",
+      "dateCreate": "2020-05-04T17:00:00.000Z",
+      "dateLast": "2020-05-07T17:00:00.000Z",
+      "money": 1212121,
+      "totalCost": 123123123,
+      "id": 6
+    }
+  ],
+  "contact-details": [
+    {
+      "id": 1,
+      "idContact": 2,
+      "serviceBonus": "massage",
+      "amount": 4
+    },
+    {
+      "idContact": "3",
+      "serviceBonus": "karaoke",
+      "amount": 213,
+      "id": 2
+    },
+    {
+      "idContact": "1",
+      "serviceBonus": "Food",
+      "amount": 1212213213,
+      "id": 3
+    }
+  ]
+}

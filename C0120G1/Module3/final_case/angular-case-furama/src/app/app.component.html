@@ -1,0 +1,84 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><span style="color: aqua">FURAMA</span><div class="spinner-border text-warning" role="status">
+    <span class="sr-only">Loading...</span> <span style="color: coral">ADMIN</span></div></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" >
+        <a class="nav-link" [routerLink]="['/']" >Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2 col-lg-2 left">
+      <ul class="list-group ">
+        <li routerLinkActive="active" class="list-group-item active hover-li ">Danh mục chức năng</li>
+        <li class="list-group-item hover-li"><a [routerLink]="['/customers']">Danh sách Khách Hàng</a></li>
+        <li class="list-group-item hover-li" ><a [routerLink]="['/employees']">Danh sách Nhân viên</a></li>
+        <li class="list-group-item hover-li" ><a [routerLink]="['/services']">Danh sách dịch vụ</a></li>
+        <li class="list-group-item hover-li" ><a [routerLink]="['/contacts']">Danh sách hợp đồng</a></li>
+        <li class="list-group-item hover-li" ><a [routerLink]="['/contact-details']">Danh sách hợp đồng chi tiết</a></li>
+
+      </ul>
+    </div>
+    <div class="col-md-10 col-lg-10">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+<footer class="vip">
+  @Design By TNT
+  <div class="scroll">
+    <div class="spinner-border spinner-border1 text-primary" role="status">
+      <span class="sr-only">TNT</span><span style="color: coral">FURAMA</span>
+    </div>
+    <div class="spinner-border spinner-border1 text-secondary" role="status">
+      <span class="sr-only">Loading...</span><span style="color: yellow">TRAN</span>
+    </div>
+    <div class="spinner-border spinner-border1 text-success" role="status">
+      <span class="sr-only">Loading...</span><span style="color: yellow">NGOC</span>
+    </div>
+    <div class="spinner-border spinner-border1 text-danger" role="status">
+      <span class="sr-only">Loading...</span><span style="color: yellow">TAN</span>
+    </div>
+    <div class="spinner-border spinner-border1  text-warning" role="status">
+      <span class="sr-only">Loading...</span><span style="color: white">C</span>
+    </div>
+    <div class="spinner-border spinner-border1 text-info" role="status">
+      <span class="sr-only">Loading...</span><span style="color: white">O</span>
+    </div>
+    <div class="spinner-border spinner-border1 text-light" role="status">
+      <span class="sr-only">Loading...</span><span style="color: white">1</span>
+    </div>
+    <div class="spinner-border spinner-border1 text-primary" role="status">
+      <span class="sr-only">Loading...</span><span style="color: white">20G1</span>
+    </div>
+  </div>
+
+</footer>
