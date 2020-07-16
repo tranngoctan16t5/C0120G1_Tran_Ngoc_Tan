@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bb02aec-29c4-4dbc-bb32-52eb1ad8fc58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Module2_web/web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Module2_web/web/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module2_web/out/artifacts/server_time_war_exploded/demo2.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module2_web/server_time.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module2_web/server_time.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module2_web/web/demo2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module2_web/src/Tong_quan_ung_dung_web/Bai_Tap/Ung_dung_calculator/demo2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/.idea/artifacts/test_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/web/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CaseStudy" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -40,6 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585034463961</updated>
       <workItem from="1585034466367" duration="40000" />
+      <workItem from="1589785213296" duration="126000" />
     </task>
     <servers />
   </component>
@@ -51,5 +53,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585034487207" />
+    <state x="526" y="253" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589785279430">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="526" y="253" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1589785279430" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1589785336585">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589785336585" />
   </component>
 </project>
